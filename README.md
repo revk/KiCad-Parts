@@ -1,1 +1,3 @@
 # KiCad-Parts
+
+Various stuff I use, so original, some copies with tweaks...

@@ -1,0 +1,11 @@
+scale(10/25.4){
+    difference()
+    {
+        union()translate([0,0,6])hull()for(x=[1.5,44.5-1.5])for(y=[1.5,37-1.5])translate([x,y,0])cylinder(r=1.5,h=1.599,$fn=24);
+        for(y=[37/2-3*2.54:2.54:37/2+3*2.54])translate([2.5,y,0])cylinder(h=10,d=1,$fn=60);
+    }
+	for(x=[2.5,44.5-2.5])for(y=[2.5,37-2.5])translate([x,y,0])cylinder(d=5,h=6,$fn=6);
+	for(x=[2.5,44.5-2.5])for(y=[2.5,37-2.5])translate([x,y,7])cylinder(d=5,h=1.6,$fn=60);
+	for(x=[2.5,44.5-2.5])for(y=[2.5,37-2.5])translate([x,y,-2.6])cylinder(d=5,h=1.6,$fn=60);
+	translate([5.25,0,6])cube([34,37,3.2]);
+}
