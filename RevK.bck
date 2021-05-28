@@ -60,7 +60,13 @@ F ~
 $ENDCMP
 #
 $CMP Regulator
-D 3.3V regulator module
+D Fixed regulator module
+K Pololu
+F https://www.pololu.com/product/2842/resources
+$ENDCMP
+#
+$CMP RegulatorFB
+D Regulator module with feedback
 K Pololu
 F https://www.pololu.com/product/2842/resources
 $ENDCMP
