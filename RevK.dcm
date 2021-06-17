@@ -49,6 +49,12 @@ $CMP OLED1.5-RGB
 D 1.5inch OLED Module
 $ENDCMP
 #
+$CMP PowerIn
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Prog
 D Programming header
 $ENDCMP
