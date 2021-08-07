@@ -37,6 +37,16 @@ $CMP G3VM-61VY3(TR)
 F https://www.mouser.co.uk/ProductDetail/653-G3VM-61VY3TR
 $ENDCMP
 #
+$CMP LMR16006YQ3
+D Fixed regulator module - requires additional hidden components
+F https://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
+$CMP LMR16006YQ3+FB
+D Regulator module with feedback - requires additional hidden components
+F https://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
 $CMP OLED1.5
 D 1.5inch OLED Module
 $ENDCMP
@@ -63,18 +73,6 @@ $CMP RN1701
 D Dual NPN bias resistor transistor, 6 pin package
 K transistor NPN
 F ~
-$ENDCMP
-#
-$CMP Regulator
-D Fixed regulator module
-K Pololu
-F https://www.pololu.com/product/2842/resources
-$ENDCMP
-#
-$CMP RegulatorFB
-D Regulator module with feedback
-K Pololu
-F https://www.pololu.com/product/2842/resources
 $ENDCMP
 #
 $CMP SCD30
