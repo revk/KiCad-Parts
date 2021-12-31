@@ -1,11 +1,16 @@
-(module AA (layer F.Cu) (tedit 60B8EAAB)
-  (fp_text reference REF** (at 0 2.75) (layer F.SilkS) hide
+(footprint "AA" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61CF2D9E)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 2.75) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1f1d3169-d0f7-4be4-805d-5f44fcce76d5)
   )
-  (fp_text value AA (at 0 1.75) (layer F.Fab) hide
+  (fp_text value "AA" (at 0 1.75) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp beee7b68-8d18-4455-8216-6995808a0eb6)
   )
-  (pad 1 smd custom (at 0 0) (size 0.2 0.2) (layers F.Cu)
+  (pad "" smd custom (at 0 0) (size 0.2 0.2) (layers "F.Cu")
     (clearance 0.3) (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -13,9 +18,17 @@
       (gr_circle (center 1.2 -2.4) (end 2.1375 -2.4) (width 0.375))
       (gr_circle (center -1.2 -2.4) (end -0.2625 -2.4) (width 0.375))
       (gr_poly (pts
-         (xy -0.075 -3.5) (xy -0.075 -1.3) (xy -0.45 -1.475) (xy -0.45 -3.5)) (width 0))
-      (gr_poly (pts
-         (xy 0.075 -3.5) (xy 0.075 -1.3) (xy 0.45 -1.475) (xy 0.45 -3.5)) (width 0))
-    ))
-  (pad ~ smd circle (at 0 -2.4) (size 5.5 5.5) (layers F.Mask))
+          (xy -0.075 -1.3)
+          (xy -0.45 -1.475)
+          (xy -0.45 -3.5)
+          (xy -0.075 -3.5)
+        ) (width 0) (fill yes))
+          (gr_poly (pts
+          (xy 0.45 -1.475)
+          (xy 0.075 -1.3)
+          (xy 0.075 -3.5)
+          (xy 0.45 -3.5)
+        ) (width 0) (fill yes))
+    ) (tstamp 26b6eb3f-a5aa-4ab9-acb4-9d321728f07d))
+  (pad "" smd circle (at 0 -2.4) (size 5.5 5.5) (layers "F.Mask") (tstamp 93879845-48c6-4ff8-a9d1-1f81553a1043))
 )
