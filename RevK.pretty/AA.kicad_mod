@@ -1,7 +1,7 @@
 (footprint "AA" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61CF2D9E)
-  (attr through_hole)
+  (tedit 61D0A922)
+  (attr exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 2.75) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1f1d3169-d0f7-4be4-805d-5f44fcce76d5)
