@@ -1,6 +1,6 @@
 (footprint "AJK" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61D0A929)
+  (tedit 61D6E1D4)
   (attr exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 5) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -9,6 +9,10 @@
   (fp_text value "AJK" (at 0 5) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e1105432-6a2f-45d9-8a08-47401d087cf4)
+  )
+  (fp_text user "®" (at -1.2 -1.9 unlocked) (layer "F.Cu")
+    (effects (font (size 0.5 0.5) (thickness 0.08)))
+    (tstamp a76fbfb4-5989-4acc-8232-260830730951)
   )
   (fp_line (start 0 -2.1) (end 0 2.1) (layer "F.Cu") (width 0.25) (tstamp 3559e287-424e-4397-b080-77c7ba6f395b))
   (fp_line (start 1.8 -2) (end 0 0) (layer "F.Cu") (width 0.25) (tstamp 646d9e91-59b4-4865-a2fc-29780ed32563))
