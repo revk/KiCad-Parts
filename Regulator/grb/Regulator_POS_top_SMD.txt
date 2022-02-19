@@ -1,16 +1,16 @@
-### Module positions - created on 2022-02-19 16:59
+### Module positions - created on 2022-02-19 17:10
 ### Printed by pcb_positions plugin
 ## Unit = mm, Angle = deg.
 ## Pcb Height 12.750mm, Pcb Width 10.210mm [based on Edge bounding box]
 ## Side : top
 ## Board Aux Origin: 0.000mm ,0.000mm
 # Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
-U1            LMR16006+FB         RegulatorBlockFB              163.8890   -63.6100   164.8390   -62.2600    180.0    top       SMD
-R2            1.8M 1% or NF       R_0603                        165.4910   -66.2930   164.6660   -66.2930      0.0    top       SMD
-R1            10M 1% or 0R        R_0603                        159.1410   -66.9280   158.3160   -66.9280      0.0    top       SMD
-L1            6.8uH               Hidden                        159.9900   -63.6100   0.0000     0.0000      180.0    top       SMD
-D1            Schottky            Hidden                        161.6100   -60.4400   0.0000     0.0000      180.0    top       SMD
-C3            10uF                Hidden                        158.4900   -60.0600   0.0000     0.0000      -90.0    top       SMD
-C2            2.2uF               Hidden                        164.7400   -60.0600   0.0000     0.0000       90.0    top       SMD
-C1            0.1uF               Hidden                        165.9900   -63.3600   0.0000     0.0000       90.0    top       SMD
+C1            0.1uF               Hidden                        158.4700   -62.6100   0.0000     0.0000       90.0    top       SMD
+C2            2.2uF               Hidden                        159.7300   -65.9100   0.0000     0.0000       90.0    top       SMD
+C3            10uF                Hidden                        165.9700   -65.9100   0.0000     0.0000      -90.0    top       SMD
+D1            Schottky            Hidden                        162.8500   -65.5200   0.0000     0.0000      180.0    top       SMD
+L1            6.8uH               Hidden                        164.4800   -62.3600   0.0000     0.0000      180.0    top       SMD
+U1            LMR16006+FB         RegulatorBlockFB              160.5755   -62.3620   159.6255   -63.7120      0.0    top       SMD
+R2            1.8M 1% or NF       R_0603                        158.9735   -59.6790   159.7985   -59.6790    180.0    top       SMD
+R1            10M 1% or 0R        R_0603                        165.3235   -59.0440   166.1485   -59.0440    180.0    top       SMD
 ## End

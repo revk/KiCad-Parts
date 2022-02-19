@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "Regualator 3.3V")
-    (date "2021-08-07")
+    (title "Regualator 5V")
+    (date "${DATE}")
     (rev "1")
   )
 
