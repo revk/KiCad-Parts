@@ -1,0 +1,27 @@
+### Module positions - created on 2022-02-19 16:59
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 12.750mm, Pcb Width 10.210mm [based on Edge bounding box]
+## Side : ALL
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+J1            Conn_01x04          PinHeader_1x04_P2.54mm_Vert.. 166.3700   -69.7230   166.3700   -69.7230     90.0    bottom    THD
+Logo1         AJK                 AJK                           163.7030   -61.4680   0.0000     0.0000      180.0    bottom    VIRTUAL
+U1            LMR16006+FB         RegulatorBlockFB              163.8890   -63.6100   164.8390   -62.2600    180.0    top       SMD
+R2            1.8M 1% or NF       R_0603                        165.4910   -66.2930   164.6660   -66.2930      0.0    top       SMD
+R1            10M 1% or 0R        R_0603                        159.1410   -66.9280   158.3160   -66.9280      0.0    top       SMD
+L1            6.8uH               Hidden                        159.9900   -63.6100   0.0000     0.0000      180.0    top       SMD
+D1            Schottky            Hidden                        161.6100   -60.4400   0.0000     0.0000      180.0    top       SMD
+C3            10uF                Hidden                        158.4900   -60.0600   0.0000     0.0000      -90.0    top       SMD
+C2            2.2uF               Hidden                        164.7400   -60.0600   0.0000     0.0000       90.0    top       SMD
+C1            0.1uF               Hidden                        165.9900   -63.3600   0.0000     0.0000       90.0    top       SMD
+## End
+## 33 SMD pads
+## 4 TH pads
+## 0 Virtual pads
+## 0 Top TH modules
+## 1 Bot TH modules
+## 8 Top SMD modules
+## 0 Bot SMD modules
+## 0 Top Virtual modules
+## 1 Bot Virtual modules
