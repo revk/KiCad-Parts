@@ -1,6 +1,6 @@
 (footprint "ESP32-PICO-MINI-02" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 620F477B)
+  (tedit 621243C7)
   (attr smd)
   (fp_text reference "REF**" (at -3.675 -12.885) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -41,10 +41,6 @@
       (xy -2.675 -2.075)
       (xy -2.675 -1.225)
     ) (layer "F.Paste") (width 0.01) (fill solid) (tstamp 63ff1c93-3f96-4c33-b498-5dd8c33bccc0))
-  (fp_line (start 6.6 -11) (end 6.6 -5.6) (layer "F.SilkS") (width 0.127) (tstamp 0217dfc4-fc13-4699-99ad-d9948522648e))
-  (fp_line (start -6.6 -11) (end 6.6 -11) (layer "F.SilkS") (width 0.127) (tstamp bd5408e4-362d-4e43-9d39-78fb99eb52c8))
-  (fp_line (start -6.6 -5.6) (end -6.6 -11) (layer "F.SilkS") (width 0.127) (tstamp c0eca5ed-bc5e-4618-9bcd-80945bea41ed))
-  (fp_circle (center -7.35 -4) (end -7.25 -4) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 3e903008-0276-4a73-8edb-5d9dfde6297c))
   (fp_poly (pts
       (xy -1.125 -1.125)
       (xy -1.125 -2.775)
@@ -74,7 +70,6 @@
   (fp_line (start 11.6 -11) (end 11.6 -5.6) (layer "F.Fab") (width 0.1) (tstamp e281be09-1372-425c-8674-96130f751632))
   (fp_line (start -6.6 5.6) (end -6.6 -5.6) (layer "F.Fab") (width 0.127) (tstamp ee27d19c-8dca-4ac8-a760-6dfd54d28071))
   (fp_line (start 6.6 -11) (end 6.6 -5.6) (layer "F.Fab") (width 0.127) (tstamp f2c93195-af12-4d3e-acdf-bdd0ff675c24))
-  (fp_circle (center -7.35 -4) (end -7.25 -4) (layer "F.Fab") (width 0.2) (fill none) (tstamp 75ffc65c-7132-4411-9f2a-ae0c73d79338))
   (pad "1" smd rect (at -5.9 -4) (size 0.8 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a3e4f0ae-9f86-49e9-b386-ed8b42e012fb))
   (pad "2" smd rect (at -5.9 -3.2) (size 0.8 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a690fc6c-55d9-47e6-b533-faa4b67e20f3))
   (pad "3" smd rect (at -5.9 -2.4) (size 0.8 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c144caa5-b0d4-4cef-840a-d4ad178a2102))

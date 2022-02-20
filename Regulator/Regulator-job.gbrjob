@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.2-0)"
     },
-    "CreationDate": "2022-02-19T17:10:45+00:00"
+    "CreationDate": "2022-02-20T07:54:06+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Regulator",
       "GUID": "52656775-6c61-4746-9f72-2e6b69636164",
-      "Revision": "rev?"
+      "Revision": "1"
     },
     "Size": {
       "X": 10.21,

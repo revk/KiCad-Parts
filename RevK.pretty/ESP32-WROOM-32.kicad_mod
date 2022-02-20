@@ -1,10 +1,10 @@
 (footprint "ESP32-WROOM-32" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61E97A0E)
+  (tedit 62124587)
   (descr "Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf")
   (tags "Single 2.4 GHz Wi-Fi and Bluetooth combo  chip")
   (attr smd)
-  (fp_text reference "REF**" (at -10.61 8.43 90) (layer "F.SilkS")
+  (fp_text reference "REF**" (at -10.61 8.43 90) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e4d0483b-1c21-4fb6-87dd-47e636746c0e)
   )
@@ -133,10 +133,10 @@
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 14.25 -9.75)
-        (xy -14.25 -9.75)
-        (xy -14.25 -21)
-        (xy 14.25 -21)
+        (xy 14 -9.7)
+        (xy -14 -9.7)
+        (xy -14 -20.75)
+        (xy 14 -20.75)
       )
     )
   )
