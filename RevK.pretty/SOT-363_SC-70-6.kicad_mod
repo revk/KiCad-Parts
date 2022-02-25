@@ -1,10 +1,10 @@
 (footprint "SOT-363_SC-70-6" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62021FFA)
+  (tedit 6214D398)
   (descr "SOT-363, SC-70-6")
   (tags "SOT-363 SC-70-6")
   (attr smd)
-  (fp_text reference "REF**" (at -1.85 0 90) (layer "F.SilkS")
+  (fp_text reference "REF**" (at -1.85 0 90) (layer "F.SilkS") hide
     (effects (font (size 0.5 0.5) (thickness 0.08)))
     (tstamp 7fe252a5-5673-444a-a6d7-244525457a21)
   )

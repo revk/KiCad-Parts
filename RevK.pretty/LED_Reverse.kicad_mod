@@ -1,10 +1,10 @@
 (footprint "LED_Reverse" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61CCB389)
+  (tedit 6214D218)
   (descr "LED, diameter 3.0mm, 2 pins")
   (tags "LED diameter 3.0mm 2 pins")
   (attr through_hole)
-  (fp_text reference "REF**" (at 1.8 0 90) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 1.8 0 90) (layer "F.SilkS") hide
     (effects (font (size 0.5 0.5) (thickness 0.08)))
     (tstamp 306356ce-3d3d-4ee4-ab88-99af3cfd3700)
   )

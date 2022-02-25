@@ -1,6 +1,6 @@
 (footprint "SCD41" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 620E4284)
+  (tedit 6214D37D)
   (solder_mask_margin 0.1)
   (attr smd)
   (fp_text reference "REF**" (at 0 6.4 unlocked) (layer "F.SilkS")

@@ -1,10 +1,10 @@
 (footprint "PinHeader_1x04_P2.54mm_Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61D152B6)
+  (tedit 6214D2FA)
   (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
   (tags "Through hole pin header THT 1x04 2.54mm single row")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -2.33) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -2.33) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d13fbe34-6c7f-4753-8c38-207512b10f05)
   )

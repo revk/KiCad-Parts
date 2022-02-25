@@ -1,8 +1,8 @@
 (footprint "Special-SOP-4-3.7x4.55" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62126C09)
+  (tedit 6214D3A3)
   (attr smd)
-  (fp_text reference "REF**" (at 0 5) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 5) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 058c60a7-b811-4242-808a-75d3e551e9d1)
   )

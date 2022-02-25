@@ -1,10 +1,10 @@
 (footprint "SW_PUSH_6mm_PTH_SMD" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61D182ED)
+  (tedit 6214D3B6)
   (descr "https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
   (tags "tact sw push 6mm")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0fc3dac4-8ec4-40d1-a208-fd91d79d138b)
   )

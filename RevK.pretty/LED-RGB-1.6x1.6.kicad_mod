@@ -1,8 +1,8 @@
 (footprint "LED-RGB-1.6x1.6" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6202269E)
+  (tedit 6214D20D)
   (attr smd)
-  (fp_text reference "REF**" (at 0 1.5) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 1.5) (layer "F.SilkS") hide
     (effects (font (size 0.5 0.5) (thickness 0.08)))
     (tstamp 3df6b2f6-eee2-4070-9548-cc202b1f14b3)
   )

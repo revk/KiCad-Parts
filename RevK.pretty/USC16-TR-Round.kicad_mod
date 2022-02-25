@@ -1,10 +1,10 @@
 (footprint "USC16-TR-Round" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62124C9F)
+  (tedit 6214D3D2)
   (descr "USB Type C CMT R/A PCB  Mount Socket 16pin Power+Data")
   (tags "USB-C")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -7.9) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -7.9) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cbc539d2-6a10-4052-9b7a-f10326dcac67)
   )
@@ -63,7 +63,7 @@
     (options (clearance outline) (anchor rect))
     (primitives
   (gr_arc (start 2.89 -3.045) (mid 0 -0.155) (end -2.89 -3.045) (width 0.25))
-  (gr_arc (start 4.294753 -3.49127) (mid -0.012228 -1.026222) (end -4.307036 -3.512417) (width 0.25))
+  (gr_arc (start 4.294753 -3.49127) (mid -0.007887 -1.026213) (end -4.302688 -3.504904) (width 0.25))
   (gr_arc (start -3.2 -2.485) (mid -4.015 -3.3) (end -3.2 -4.115) (width 0.25))
   (gr_arc (start 3.2 -4.115) (mid 4.015 -3.3) (end 3.2 -2.485) (width 0.25))
   (gr_arc (start -4.32 0.635) (mid -0.000001 -1.154403) (end 4.319999 0.634999) (width 0.25))

@@ -1,8 +1,8 @@
 (footprint "Hidden" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61D164EC)
+  (tedit 621345EE)
   (attr smd)
-  (fp_text reference "REF**" (at 0 -0.8) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -0.8) (layer "F.SilkS") hide
     (effects (font (size 0.5 0.5) (thickness 0.08)))
     (tstamp fe1eab71-decf-4b8a-8010-8099decd5b2e)
   )

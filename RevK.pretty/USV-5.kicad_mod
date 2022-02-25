@@ -1,8 +1,8 @@
 (footprint "USV-5" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61E6CEB2)
+  (tedit 6214D3DA)
   (attr through_hole)
-  (fp_text reference "REF**" (at 1.7 0 90) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 1.7 0 90) (layer "F.SilkS") hide
     (effects (font (size 0.5 0.5) (thickness 0.08)))
     (tstamp ceb1df6a-4de2-45e0-a86d-fcd2b20e3e1a)
   )

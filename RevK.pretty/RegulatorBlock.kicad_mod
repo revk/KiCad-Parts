@@ -1,9 +1,9 @@
 (footprint "RegulatorBlock" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 620224B1)
+  (tedit 6214D326)
   (descr "LMR16006 based regulator 3.3V/5V")
   (attr smd)
-  (fp_text reference "REF**" (at -0.5 -2.51 180) (layer "F.SilkS")
+  (fp_text reference "REF**" (at -0.5 -2.51 180) (layer "F.SilkS") hide
     (effects (font (size 0.5 0.5) (thickness 0.08)))
     (tstamp 9f606b1c-8a51-429c-ab0e-64fac13d970c)
   )

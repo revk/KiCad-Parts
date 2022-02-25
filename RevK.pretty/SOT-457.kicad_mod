@@ -1,8 +1,8 @@
 (footprint "SOT-457" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62022005)
+  (tedit 6214D39E)
   (attr smd)
-  (fp_text reference "REF**" (at 0 2.5 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 2.5 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 56c498c9-5f0f-4329-a893-e79e43ba4f64)
   )
