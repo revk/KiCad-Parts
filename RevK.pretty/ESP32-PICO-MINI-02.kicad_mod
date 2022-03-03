@@ -1,6 +1,6 @@
 (footprint "ESP32-PICO-MINI-02" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62160837)
+  (tedit 62207581)
   (attr smd)
   (fp_text reference "REF**" (at -3.675 -12.885) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -38,6 +38,9 @@
     (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp fd21c65e-d34a-4a76-959b-276302fbdb8c)
   )
+  (fp_line (start -6.6 5.3) (end -6.6 -5.3) (layer "F.SilkS") (width 0.12) (tstamp 12eac6d1-24b8-4ea7-b275-251ba8bf5245))
+  (fp_line (start -6.3 5.6) (end 6.3 5.6) (layer "F.SilkS") (width 0.12) (tstamp 422a6702-d1c1-4e76-898e-ec20aaee30c2))
+  (fp_line (start 6.6 5.3) (end 6.6 -5.3) (layer "F.SilkS") (width 0.12) (tstamp 6b1d6bcd-1928-474b-8dbd-6dab746597ca))
   (fp_line (start -6.6 5.6) (end 6.6 5.6) (layer "F.CrtYd") (width 0.05) (tstamp 1d9cdadc-9036-4a95-b6db-fa7b3b74c869))
   (fp_line (start 6.6 -11) (end -6.6 -11) (layer "F.CrtYd") (width 0.05) (tstamp 24f7628d-681d-4f0e-8409-40a129e929d9))
   (fp_line (start 6.6 5.6) (end 6.6 -11) (layer "F.CrtYd") (width 0.05) (tstamp 3a7648d8-121a-4921-9b92-9b35b76ce39b))
@@ -165,7 +168,7 @@
     )
   )
   (model "/Users/adrian/Documents/KiCad/3D/ESP32-PICO-MINI-02.step"
-    (offset (xyz 0 2.5 0))
+    (offset (xyz 0 2.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
