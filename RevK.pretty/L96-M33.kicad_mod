@@ -1,6 +1,6 @@
 (footprint "L96-M33" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 622074EE)
+  (tedit 6224C4D3)
   (descr "GPS module")
   (attr smd)
   (fp_text reference "REF**" (at 0 8.45 180) (layer "F.SilkS") hide
@@ -11,10 +11,6 @@
     (effects (font (size 1.000425 1.000425) (thickness 0.15)))
     (tstamp c9a0dd18-d945-4bfe-8921-ced29a4068d2)
   )
-  (fp_line (start -4.8 7) (end -4.8 7.5) (layer "F.Cu") (width 0.12) (tstamp 16344277-d6bf-4bed-bd03-5a7e93eda5f1))
-  (fp_line (start -4.8 7) (end -5.3 7) (layer "F.Cu") (width 0.12) (tstamp 1c2e9ebc-31a5-4723-aa8a-ce9ca94db9c1))
-  (fp_line (start 4.8 7) (end 4.8 7.5) (layer "F.Cu") (width 0.12) (tstamp 68fb0d99-97aa-4450-86c3-6390f2ee34fa))
-  (fp_line (start 4.8 7) (end 5.3 7) (layer "F.Cu") (width 0.12) (tstamp c0a65da3-beb8-4138-941f-bdc7366559f8))
   (fp_line (start -2.6 7) (end -4.5 7) (layer "F.SilkS") (width 0.12) (tstamp 18243035-4751-445a-8818-f87dcc6e150a))
   (fp_line (start 2.6 7) (end 4.5 7) (layer "F.SilkS") (width 0.12) (tstamp 4c0a6173-3bb5-488a-ae98-333b4befcac8))
   (fp_line (start -4.8 7) (end -4.8 7.5) (layer "F.Mask") (width 0.2) (tstamp 0b594a44-8aad-494e-b7aa-c53af54dd571))
