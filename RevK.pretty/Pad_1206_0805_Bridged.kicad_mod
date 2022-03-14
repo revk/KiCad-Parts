@@ -1,6 +1,6 @@
 (footprint "Pad_1206_0805_Bridged" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6216110B)
+  (tedit 622B0589)
   (descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips")
   (tags "net tie solder jumper bridged")
   (attr exclude_from_pos_files exclude_from_bom)
@@ -21,8 +21,8 @@
   (fp_line (start -0.727064 0.9) (end 0.727064 0.9) (layer "F.SilkS") (width 0.12) (tstamp 27adf374-12d5-4a17-990e-883a465b4fab))
   (fp_line (start -0.727064 -0.92) (end 0.727064 -0.92) (layer "F.SilkS") (width 0.12) (tstamp 34b90269-738c-4649-90d7-62ed8c717ddf))
   (fp_poly (pts
-      (xy 0.2 0.85)
-      (xy -0.2 0.85)
+      (xy 0.2 0.83)
+      (xy -0.2 0.83)
       (xy -0.2 -0.85)
       (xy 0.2 -0.85)
     ) (layer "F.Mask") (width 0) (fill solid) (tstamp 0f615b6d-5660-430e-bbb9-d7344440db39))
