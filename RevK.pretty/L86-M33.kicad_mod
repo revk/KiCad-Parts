@@ -1,6 +1,6 @@
 (footprint "L86-M33" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 622F1F9E)
+  (tedit 622F21D1)
   (attr smd)
   (fp_text reference "REF**" (at 9 -8 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)) (justify right))
@@ -75,10 +75,10 @@
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 1.95 -6.3)
-        (xy -0.3 -6.3)
-        (xy -0.3 -7.55)
-        (xy 1.95 -7.55)
+        (xy 1.95 -6.6)
+        (xy -0.3 -6.6)
+        (xy -0.3 -7.85)
+        (xy 1.95 -7.85)
       )
     )
   )
@@ -107,10 +107,10 @@
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 1.95 7.95)
-        (xy -0.3 7.95)
-        (xy -0.3 6.7)
-        (xy 1.95 6.7)
+        (xy 1.95 8.25)
+        (xy -0.3 8.25)
+        (xy -0.3 7)
+        (xy 1.95 7)
       )
     )
   )
