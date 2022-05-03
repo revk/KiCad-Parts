@@ -1,20 +1,20 @@
 (footprint "Round" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 626FE989)
+  (tedit 626FF6C3)
   (descr "Through hole angled pin header, 1x01, 2.54mm pitch, 6mm pin length, single row")
   (tags "Through hole angled pin header THT 1x01 2.54mm single row")
   (attr through_hole)
-  (fp_text reference "REF**" (at -0.8 -0.8 45) (layer "F.SilkS")
+  (fp_text reference "REF**" (at -0.8 -0.8 45) (layer "F.SilkS") hide
     (effects (font (size 0.5 0.5) (thickness 0.08)))
     (tstamp b45588a3-0a09-4ada-8612-37caa10e5f5e)
   )
-  (fp_text value "Round" (at 4.385 2.27) (layer "F.Fab") hide
+  (fp_text value "Round" (at -0.05 1.45) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6e9ad7d4-c4f0-481c-8399-2c7325cecd68)
   )
-  (fp_text user "${REFERENCE}" (at 2.77 0 90) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp b986e2f6-28cf-42ee-8ba6-9726b5e44df5)
+  (fp_text user "${VALUE}" (at -0.75 -0.85 45 unlocked) (layer "F.SilkS")
+    (effects (font (size 0.5 0.5) (thickness 0.08)))
+    (tstamp ddd398f5-8ca5-4305-8706-f1b003b173cc)
   )
   (fp_line (start -0.32 -0.32) (end -0.32 0.32) (layer "F.Fab") (width 0.1) (tstamp e6d43106-3a58-4a22-b6d0-23c7da0a01e5))
   (pad "1" thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp b2b42797-e7bf-4edf-9c64-ea9415b4b4e1))
