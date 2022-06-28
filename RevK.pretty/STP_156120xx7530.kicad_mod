@@ -31,8 +31,20 @@
   (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp ffb6e8bf-313d-4c15-ac19-78188241a311))
   (pad "" thru_hole circle (at 0 0) (size 1.82 1.82) (drill 1.8) (layers *.Cu *.Mask)
     (solder_mask_margin -0.01) (tstamp 043a92e9-2d16-40ae-b42e-46779d032e3f))
-  (pad "1" smd roundrect (at -1.4 0) (size 0.9 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 263756cf-3853-4524-8df2-424ae259267e))
-  (pad "2" smd roundrect (at 1.4 0) (size 0.9 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 20cf0c08-e332-4a8c-b3c4-79dc756d878b))
+  (pad "1" smd custom (at -1.625 0) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_line (start 0 -0.55) (end 0 0.55) (width 0.5) (fill yes))
+      (gr_line (start 0 -0.55) (end 0.4 -0.55) (width 0.5) (fill yes))
+      (gr_line (start 0 0.55) (end 0.4 0.55) (width 0.5) (fill yes))
+    ) (tstamp 21817dcf-ec8d-469e-b5d7-1192b1941edb))
+  (pad "2" smd custom (at 1.625 0 180) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_line (start 0 -0.55) (end 0 0.55) (width 0.5))
+      (gr_line (start 0 -0.55) (end 0.4 -0.55) (width 0.5))
+      (gr_line (start 0 0.55) (end 0.4 0.55) (width 0.5))
+    ) (tstamp 075ab855-c995-46b1-92c9-ee3dcaedbeb6))
   (model "/Users/adrian/Documents/KiCad/3D/STP_156120xx75300.stp"
     (offset (xyz 0 0 0.4))
     (scale (xyz 1 1 1))
