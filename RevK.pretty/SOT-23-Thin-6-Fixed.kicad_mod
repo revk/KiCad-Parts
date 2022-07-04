@@ -1,4 +1,4 @@
-(footprint "SOT-23-5-Reg-Fixed" (version 20211014) (generator pcbnew)
+(footprint "SOT-23-Thin-6-Fixed" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 6214D326)
   (descr "LMR16006 based regulator 3.3V/5V")

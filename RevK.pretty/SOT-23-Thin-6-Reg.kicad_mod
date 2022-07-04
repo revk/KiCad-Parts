@@ -1,4 +1,4 @@
-(footprint "SOT-23-5-Reg" (version 20211014) (generator pcbnew)
+(footprint "SOT-23-Thin-6-Reg" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 622A369A)
   (descr "LMR16006 based fixed regulator")
