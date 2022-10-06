@@ -21,4 +21,9 @@
   (pad "2" smd roundrect (at -0.51 0.65) (size 0.8 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 6b067d12-7d00-42e9-8501-a9e4d847c348))
   (pad "3" smd roundrect (at 0.51 0.65) (size 0.8 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 2f3cde72-0570-40df-a597-394e094bd73d))
   (pad "4" smd roundrect (at 1.37 0.65) (size 0.6 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 71cb29e1-b87a-491e-9046-44a605b7b7a3))
+  (model "/Users/adrian/Documents/KiCad/3D/VEML3235SL.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
