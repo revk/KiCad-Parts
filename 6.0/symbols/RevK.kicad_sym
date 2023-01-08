@@ -3766,7 +3766,7 @@
     (property "Footprint" "RevK:USC16-TR-Round" (id 2) (at 0 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 0 22.86 0)
+    (property "Datasheet" "" (id 3) (at 0 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "usb universal serial bus type-C USB2.0" (id 4) (at 0 0 0)
