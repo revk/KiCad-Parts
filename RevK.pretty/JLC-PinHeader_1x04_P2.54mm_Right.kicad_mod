@@ -1,4 +1,4 @@
-(footprint "PinHeader_1x04_P2.54mm_Right" (version 20211014) (generator pcbnew)
+(footprint "JLC-PinHeader_1x04_P2.54mm_Right" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 59FED5CB)
   (descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 216014c9-0d9f-4547-832b-8ca9f31771f5)
   )
-  (fp_text value "PinHeader_1x04_P2.54mm_Right" (at -6.08 0.655 270) (layer "F.Fab") hide
+  (fp_text value "JLC-PinHeader_1x04_P2.54mm_Right" (at -6.08 0.655 270) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ffe859f7-ed93-4db5-9e10-de6e3212b91e)
   )
@@ -54,8 +54,8 @@
   (pad "3" thru_hole oval (at 1.27 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 16d336f2-932b-4f50-848a-01c3f91aff00))
   (pad "4" thru_hole circle (at 3.81 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 7bb4d01a-3af6-4c34-91d4-e28426eb426e))
   (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"
-    (offset (xyz -5 3.81 0))
+    (offset (xyz 3.81 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )

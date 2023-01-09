@@ -1,4 +1,4 @@
-(footprint "SOT-363_SC-70-6-Rot" (version 20211014) (generator pcbnew)
+(footprint "JLC-SOT-363_SC-70-6" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 6214D398)
   (descr "SOT-363, SC-70-6")
