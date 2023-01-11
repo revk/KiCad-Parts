@@ -1,4 +1,4 @@
-(footprint "JLC-PinHeader_1x05_P2.54mm_Right" (version 20211014) (generator pcbnew)
+(footprint "PinHeader_1x05_P2.54mm_Right" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 59FED5CB)
   (descr "Through hole angled pin header, 1x05, 2.54mm pitch, 6mm pin length, single row")
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1f3c3f34-c065-477f-9143-ac6bb7a983e3)
   )
-  (fp_text value "JLC-PinHeader_1x05_P2.54mm_Right" (at -7.35 4.385 270) (layer "F.Fab") hide
+  (fp_text value "PinHeader_1x05_P2.54mm_Right" (at -7.35 4.385 270) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp be228e3f-138a-4927-b464-717676692db4)
   )
