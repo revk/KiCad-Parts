@@ -1,4 +1,4 @@
-(footprint "PinHeader_1x04_P2.54mm_Right" (version 20211014) (generator pcbnew)
+(footprint "PinHeader_1x04_P2.54mm_Left" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 59FED5CB)
   (descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 216014c9-0d9f-4547-832b-8ca9f31771f5)
   )
-  (fp_text value "PinHeader_1x04_P2.54mm_Right" (at -6.08 0.655 270) (layer "F.Fab") hide
+  (fp_text value "PinHeader_1x04_P2.54mm_Left" (at -6.08 0.655 270) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ffe859f7-ed93-4db5-9e10-de6e3212b91e)
   )
@@ -49,10 +49,10 @@
   (fp_line (start -0.95 4.04) (end -0.95 10.04) (layer "F.Fab") (width 0.1) (tstamp e357951e-b987-4c93-9d7c-17dfedb162b5))
   (fp_line (start 0.95 -0.32) (end 0.95 1.5) (layer "F.Fab") (width 0.1) (tstamp ed63a252-5abc-4325-9d81-e952c28a9948))
   (fp_line (start -0.95 -0.32) (end -1.59 -0.32) (layer "F.Fab") (width 0.1) (tstamp fb3d2791-9060-410f-9129-9500cc27f616))
-  (pad "1" thru_hole rect (at -3.81 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 6adc20d3-93c0-4920-a987-d46d179ca649))
-  (pad "2" thru_hole oval (at -1.27 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp c8e89fe1-b830-4292-8831-6d18c6d1f483))
-  (pad "3" thru_hole oval (at 1.27 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 16d336f2-932b-4f50-848a-01c3f91aff00))
-  (pad "4" thru_hole circle (at 3.81 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 7bb4d01a-3af6-4c34-91d4-e28426eb426e))
+  (pad "1" thru_hole rect (at 3.81 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 7bb4d01a-3af6-4c34-91d4-e28426eb426e))
+  (pad "2" thru_hole oval (at 1.27 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 16d336f2-932b-4f50-848a-01c3f91aff00))
+  (pad "3" thru_hole oval (at -1.27 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp c8e89fe1-b830-4292-8831-6d18c6d1f483))
+  (pad "4" thru_hole circle (at -3.81 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 6adc20d3-93c0-4920-a987-d46d179ca649))
   (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"
     (offset (xyz 3.81 0 0))
     (scale (xyz 1 1 1))
