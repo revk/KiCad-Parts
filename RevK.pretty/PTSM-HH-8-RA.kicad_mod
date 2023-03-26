@@ -34,4 +34,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
   )
+  (model "${REVK_3D}/pxc_1778890_02_PTSM-0-5-8-P-2-5_3D.stp"
+    (offset (xyz 10.25 -15 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )
