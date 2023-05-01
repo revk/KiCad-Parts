@@ -11,10 +11,10 @@
   )
   (fp_line (start -3 0) (end 3 0) (layer "F.Fab") (width 1) (tstamp 39b82a97-b494-4756-8312-8959669fc1ee))
   (fp_line (start 0 -3) (end 0 3) (layer "F.Fab") (width 1) (tstamp a081df11-8770-41d8-9849-06381117356e))
-  (fp_circle (center 0 0) (end 6 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp dea6278e-3a62-4d10-8480-95dbfaf73c02))
-  (model "/Users/adrian/Documents/KiCad/3D/653612.stp"
-    (offset (xyz 0 0 0))
+  (fp_circle (center 0 0) (end 4 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp dea6278e-3a62-4d10-8480-95dbfaf73c02))
+  (model "${REVK_3D}/M3.5CSK.step"
+    (offset (xyz 0 0 3))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 90 0))
+    (rotate (xyz 0 -90 0))
   )
 )
