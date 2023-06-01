@@ -1,4 +1,4 @@
 #!/bin/csh -f
-foreach Q (AA ASR33 ENVMON GFX HA PN532 SS ASR33 DAIKIN GENERIC GPS LED RELAY10 TAS)
+foreach Q (AA ASR33 ENVMON GFX HA PN532 SS ASR33 FAIKIN GENERIC GPS LED RELAY10 TAS)
 	/projects/tools/bin/qr --kicad "HTTPS://$Q.REVK.UK" > "RevK.pretty/QR-$Q.kicad_mod"
 end
