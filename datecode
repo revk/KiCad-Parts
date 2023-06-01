@@ -1,0 +1,3 @@
+#!/bin/csh -f
+/projects/tools/bin/5x9 --style=kicad `date +%F` > /home/adrian/Documents/KiCad/RevK.pretty/PasteDate.kicad_mod
+
