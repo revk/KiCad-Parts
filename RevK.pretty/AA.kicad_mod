@@ -1,29 +1,37 @@
-(footprint "AA" (version 20211014) (generator pcbnew)
+(footprint "AA" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 621265BC)
-  (attr exclude_from_pos_files exclude_from_bom)
+  (attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
   (fp_text reference "REF**" (at 0 2.75) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1f1d3169-d0f7-4be4-805d-5f44fcce76d5)
   )
   (fp_text value "AA" (at 0 1.75) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp beee7b68-8d18-4455-8216-6995808a0eb6)
   )
-  (fp_circle (center -1.2 0) (end -0.2625 0) (layer "F.Cu") (width 0.375) (fill none) (tstamp 2215c3cc-9572-458d-8c50-c154d8a21edd))
-  (fp_circle (center 0 0) (end 2.4 0) (layer "F.Cu") (width 0.2) (fill none) (tstamp 707b1282-fdf9-4928-869a-9dbf3a817513))
-  (fp_circle (center 1.2 0) (end 2.1375 0) (layer "F.Cu") (width 0.375) (fill none) (tstamp e0e1ca09-86a2-4a1e-91c7-9e30fee9ab8c))
-  (fp_poly (pts
-      (xy 0.45 0.925)
-      (xy 0.075 1.1)
-      (xy 0.075 -1.1)
-      (xy 0.45 -1.1)
-    ) (layer "F.Cu") (width 0) (fill solid) (tstamp 46a31d9d-311e-4951-9580-8458ea12a084))
-  (fp_poly (pts
+  (fp_circle (center -1.2 0) (end -0.2625 0)
+    (stroke (width 0.375) (type solid)) (fill none) (layer "F.Cu") (tstamp 2215c3cc-9572-458d-8c50-c154d8a21edd))
+  (fp_circle (center 0 0) (end 2.4 0)
+    (stroke (width 0.2) (type solid)) (fill none) (layer "F.Cu") (tstamp 707b1282-fdf9-4928-869a-9dbf3a817513))
+  (fp_circle (center 1.2 0) (end 2.1375 0)
+    (stroke (width 0.375) (type solid)) (fill none) (layer "F.Cu") (tstamp e0e1ca09-86a2-4a1e-91c7-9e30fee9ab8c))
+  (fp_poly
+    (pts
       (xy -0.075 1.1)
       (xy -0.45 0.925)
       (xy -0.45 -1.1)
       (xy -0.075 -1.1)
-    ) (layer "F.Cu") (width 0) (fill solid) (tstamp 8255a4a1-ab2d-4484-a456-579f6137ea5a))
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp 8255a4a1-ab2d-4484-a456-579f6137ea5a))
+  (fp_poly
+    (pts
+      (xy 0.45 0.925)
+      (xy 0.075 1.1)
+      (xy 0.075 -1.1)
+      (xy 0.45 -1.1)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp 46a31d9d-311e-4951-9580-8458ea12a084))
   (pad "" smd circle (at 0 0) (size 5.4 5.4) (layers "F.Mask") (tstamp 93879845-48c6-4ff8-a9d1-1f81553a1043))
 )
