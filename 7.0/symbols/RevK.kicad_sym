@@ -46,7 +46,7 @@
     (property "Value" "CH340K" (at 1.27 13.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm" (at 1.27 -13.97 0)
+    (property "Footprint" "RevK:CH340K" (at 1.27 -13.97 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.mpja.com/download/35227cpdata.pdf" (at -8.89 20.32 0)
