@@ -1000,12 +1000,6 @@
     (property "Datasheet" "~" (at 118.745 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part No" "" (at 118.745 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Note" "" (at 118.745 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "~" (uuid d5e05410-3392-42da-b28a-7f5f5eb479d3))
     (instances
       (project "Reference"

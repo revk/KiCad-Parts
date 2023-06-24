@@ -4366,7 +4366,7 @@
     (property "LCSC Part #" "C709357" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB Rotation Offset" "90" (at 0 0 0)
+    (property "JLCPCB Rotation Offset" "0" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "ki_keywords" "usb universal serial bus type-C USB2.0" (at 0 0 0)
