@@ -72,6 +72,288 @@
         )
       )
     )
+    (symbol "Device:LED_RBGA" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 9.398 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LED_RBGA" (at 0 -8.89 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "LED RGB diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RGB LED, red/blue/green/anode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LED_RBGA_0_0"
+        (text "B" (at -1.905 -6.35 0)
+          (effects (font (size 1.27 1.27)))
+        )
+        (text "G" (at -1.905 -1.27 0)
+          (effects (font (size 1.27 1.27)))
+        )
+        (text "R" (at -1.905 3.81 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (symbol "LED_RBGA_0_1"
+        (polyline
+          (pts
+            (xy -1.27 -5.08)
+            (xy -2.54 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -5.08)
+            (xy 1.27 -5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -3.81)
+            (xy -1.27 -6.35)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy -2.54 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 5.08)
+            (xy -2.54 5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 5.08)
+            (xy 1.27 5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 6.35)
+            (xy -1.27 3.81)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 2.54 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 6.35)
+            (xy -1.27 3.81)
+            (xy -1.27 3.81)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -5.08)
+            (xy 2.032 -5.08)
+            (xy 2.032 5.08)
+            (xy 1.27 5.08)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -3.81)
+            (xy 1.27 -6.35)
+            (xy -1.27 -5.08)
+            (xy 1.27 -3.81)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 6.35)
+            (xy 1.27 3.81)
+            (xy -1.27 5.08)
+            (xy 1.27 6.35)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 -3.81)
+            (xy 0.508 -2.286)
+            (xy -0.254 -2.286)
+            (xy 0.508 -2.286)
+            (xy 0.508 -3.048)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 1.27)
+            (xy 0.508 2.794)
+            (xy -0.254 2.794)
+            (xy 0.508 2.794)
+            (xy 0.508 2.032)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 6.35)
+            (xy 0.508 7.874)
+            (xy -0.254 7.874)
+            (xy 0.508 7.874)
+            (xy 0.508 7.112)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -3.81)
+            (xy 1.524 -2.286)
+            (xy 0.762 -2.286)
+            (xy 1.524 -2.286)
+            (xy 1.524 -3.048)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 1.524 2.794)
+            (xy 0.762 2.794)
+            (xy 1.524 2.794)
+            (xy 1.524 2.032)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 6.35)
+            (xy 1.524 7.874)
+            (xy 0.762 7.874)
+            (xy 1.524 7.874)
+            (xy 1.524 7.112)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 1.27 -1.27) (end 1.27 1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 1.27 1.27) (end 1.27 1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 1.27 3.81) (end 1.27 6.35)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 1.27 6.35) (end 1.27 6.35)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.032 0) (radius 0.254)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 2.794 8.382) (end -2.794 -7.62)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "LED_RBGA_1_1"
+        (pin passive line (at -5.08 5.08 0) (length 2.54)
+          (name "RK" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -5.08 0) (length 2.54)
+          (name "BK" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "GK" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -111,6 +393,64 @@
         )
       )
     )
+    (symbol "Mechanical:Fiducial" (in_bom yes) (on_board yes)
+      (property "Reference" "FID" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Fiducial" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "fiducial marker" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Fiducial Marker" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Fiducial*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Fiducial_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 0.508) (type default))
+          (fill (type background))
+        )
+      )
+    )
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
     (symbol "RevK:AJK" (pin_names (offset 1.016)) (in_bom no) (on_board yes)
       (property "Reference" "Logo" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -126,6 +466,83 @@
       )
       (property "Note" "Non part, PCB printed" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
+      )
+    )
+    (symbol "RevK:Barcode" (pin_names (offset 1.016)) (in_bom no) (on_board yes)
+      (property "Reference" "U" (at 0 -3.175 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "Barcode" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "" (at -0.635 -0.635 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at -0.635 -0.635 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Note" "Non part, PCB printed" (at 0 5.715 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Barcode_0_1"
+        (polyline
+          (pts
+            (xy -0.635 1.905)
+            (xy -0.635 -1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.905)
+            (xy 0 -1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.905)
+            (xy 1.27 -1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.905 1.905)
+            (xy 1.905 -1.905)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Barcode_1_1"
+        (polyline
+          (pts
+            (xy -1.905 1.905)
+            (xy -1.905 -1.905)
+          )
+          (stroke (width 0.5) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 1.905)
+            (xy -1.27 -1.905)
+          )
+          (stroke (width 0.5) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 1.905)
+            (xy 0.635 -1.905)
+          )
+          (stroke (width 0.5) (type default))
+          (fill (type none))
+        )
       )
     )
     (symbol "RevK:Hidden" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
@@ -473,6 +890,27 @@
     (uuid f845ba84-2972-4f09-a30b-4c9624781165)
   )
 
+  (global_label "B" (shape input) (at 158.75 88.9 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 0351ec87-0f27-48d0-8237-95a497a02688)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 55.88 -16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "G" (shape input) (at 158.75 83.82 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 972bc327-095d-42e7-b301-8a38b386f5eb)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 55.88 -16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+  (global_label "R" (shape input) (at 158.75 78.74 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid aa7182d5-619f-4ba3-a22d-440ee566e21d)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 55.88 -16.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
   (global_label "DC" (shape input) (at 86.36 92.075 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d8a9198d-1da8-4af1-8d41-8b96d3d344e7)
@@ -627,6 +1065,43 @@
     )
   )
 
+  (symbol (lib_id "RevK:Barcode") (at 273.05 173.355 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0a82c605-59cf-4466-9b66-84c6598a242f)
+    (property "Reference" "U2" (at 273.05 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Barcode" (at 273.05 178.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "RevK:EAN-5060634238069" (at 272.415 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 272.415 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Note" "Non part, PCB printed" (at 273.05 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "U2") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "U4") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "U3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3.3V") (at 86.36 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0abc12b6-0a99-4099-be5c-bdbeed4d814a)
@@ -652,6 +1127,40 @@
       (project "Generic"
         (path "/babeabf2-f3b0-4ed5-8d9e-0215947e6cf3"
           (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 254 161.29 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0b7975cb-be21-423e-a15d-6e90e3e82fdb)
+    (property "Reference" "FID8" (at 256.159 160.266 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 256.159 162.314 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 254 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 254 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "FID8") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "FID4") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "FID8") (unit 1)
         )
       )
     )
@@ -720,6 +1229,40 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:Fiducial") (at 241.935 161.29 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1d2d715c-617b-4e6e-a57c-2706b6a7c764)
+    (property "Reference" "FID4" (at 244.094 160.266 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 244.094 162.314 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 241.935 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 241.935 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "FID4") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "FID8") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "FID4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 97.155 65.405 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 256adfd0-10fb-4001-ba53-34b908fca4ce)
@@ -744,6 +1287,101 @@
       (project "Reference"
         (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
           (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 176.53 83.82 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 25722f5e-4e76-4d28-9082-79f82b056ca7)
+    (property "Reference" "#PWR02" (at 172.72 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 179.7812 84.201 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 176.53 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 176.53 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a2df5b0b-cdcb-4252-836e-cb99991c41d7))
+    (instances
+      (project "Generic6"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 254 146.05 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2a213f32-2f4a-44fa-9c18-a74a50c862c2)
+    (property "Reference" "FID5" (at 256.159 145.026 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 256.159 147.074 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 254 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 254 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "FID5") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "FID1") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "FID5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 162.56 83.82 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3584535d-721c-43a1-ac97-75c238e557e5)
+    (property "Reference" "R2" (at 162.56 85.725 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2K" (at 162.56 83.82 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "RevK:R_0402" (at 162.56 82.042 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 162.56 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bcc0fef4-3168-4464-9a74-897a6333586d))
+    (pin "2" (uuid 45f60477-d153-4f99-ba23-a19a29ff2519))
+    (instances
+      (project "Generic6"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "R2") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -844,6 +1482,139 @@
       (project "Generic"
         (path "/babeabf2-f3b0-4ed5-8d9e-0215947e6cf3"
           (reference "R12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 266.7 156.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5055ddff-ea95-464c-9f01-cdde64eac54f)
+    (property "Reference" "H3" (at 269.24 155.186 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 269.24 157.234 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2mm" (at 266.7 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 266.7 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 266.7 161.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 53b75057-b0a8-4615-9371-99d8f3b07152)
+    (property "Reference" "H4" (at 269.24 160.266 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 269.24 162.314 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2mm" (at 266.7 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 266.7 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 241.935 151.13 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5806ced7-f2b2-4941-858d-a7061b038f5d)
+    (property "Reference" "FID2" (at 244.094 150.106 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 244.094 152.154 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 241.935 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 241.935 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "FID2") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "FID6") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "FID2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 162.56 78.74 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5a15b38f-0e24-418a-a76b-0614762fa162)
+    (property "Reference" "R1" (at 162.56 80.645 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "680R" (at 162.56 78.74 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "RevK:R_0402" (at 162.56 76.962 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 162.56 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4ed7b769-4b1c-458b-a82d-5b0c52399ed6))
+    (pin "2" (uuid 4aa22b81-0235-424d-bb35-7d022bbfbd24))
+    (instances
+      (project "Generic6"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -955,6 +1726,79 @@
     )
   )
 
+  (symbol (lib_id "Device:LED_RBGA") (at 171.45 83.82 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 70576a49-6b3c-4838-abab-ed6f84a2adf4)
+    (property "Reference" "D1" (at 171.45 71.1962 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "RGB" (at 171.45 73.5076 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "RevK:LED-RGB-1.6x1.6" (at 171.45 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 171.45 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Kingbright" (at 171.45 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part No" "APTF1616LSEEZGKQBKC" (at 171.45 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "C264508" (at 171.45 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e9d82ce9-a312-48ac-ab33-31600e1b3722))
+    (pin "2" (uuid 1ff58104-25f3-4067-9246-e69486690314))
+    (pin "3" (uuid bcb8396a-753a-458b-a83c-b89b639d6a27))
+    (pin "4" (uuid 8c927c3d-184b-4b45-9e9e-9d2c04e1b166))
+    (instances
+      (project "Generic6"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "D2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 162.56 88.9 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7d10f049-7a1e-4f75-9411-537013f995cb)
+    (property "Reference" "R3" (at 162.56 90.805 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "220R" (at 162.56 88.9 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "RevK:R_0402" (at 162.56 87.122 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 162.56 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e79c750b-163a-4d2c-ba92-4fff53969458))
+    (pin "2" (uuid 685b596d-50a5-4524-add4-1f4348eda86d))
+    (instances
+      (project "Generic6"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "R3") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "R8") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RevK:Hidden") (at 118.745 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82f82abd-497d-4de1-9f4d-05dbde9d57ff)
@@ -980,6 +1824,77 @@
       (project "Generic"
         (path "/babeabf2-f3b0-4ed5-8d9e-0215947e6cf3"
           (reference "L2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 266.7 146.05 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 83167144-24e0-4d8c-8557-726df32fee09)
+    (property "Reference" "H1" (at 269.24 145.026 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 269.24 147.074 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2mm" (at 266.7 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 266.7 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RevK:Barcode") (at 279.4 173.355 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 86c78100-705e-4c6d-9d92-64254626ba2e)
+    (property "Reference" "U6" (at 279.4 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Barcode" (at 279.4 178.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "RevK:EAN-5060634238069" (at 278.765 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 278.765 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Note" "Non part, PCB printed" (at 279.4 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "U6") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "U2") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -1046,6 +1961,40 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 266.7 151.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a79ff000-e72a-40ad-b88f-b7f1f7be94f3)
+    (property "Reference" "H2" (at 269.24 150.106 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 269.24 152.154 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_2mm" (at 266.7 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 266.7 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RevK:AJK") (at 260.35 174.625 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab097fcc-5168-4497-a352-43eecc18a0c7)
@@ -1068,6 +2017,74 @@
       (project "Reference"
         (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
           (reference "Logo1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 241.935 146.05 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b547c928-a6cd-4464-b6ea-c6d69c0481e5)
+    (property "Reference" "FID1" (at 244.094 145.026 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 244.094 147.074 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 241.935 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 241.935 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "FID1") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "FID5") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "FID1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 254 156.21 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bf09230f-39cb-43f9-bc16-303a60c72b47)
+    (property "Reference" "FID7" (at 256.159 155.186 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 256.159 157.234 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 254 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 254 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "FID7") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "FID3") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "FID7") (unit 1)
         )
       )
     )
@@ -1102,6 +2119,40 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:Fiducial") (at 241.935 156.21 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c984f237-b8c4-4a35-9a04-4907e09c0874)
+    (property "Reference" "FID3" (at 244.094 155.186 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 244.094 157.234 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 241.935 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 241.935 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "FID3") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "FID7") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "FID3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 90.805 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dbb38365-86a5-49d8-b97f-773d8217d7a0)
@@ -1122,6 +2173,40 @@
       (project "Reference"
         (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
           (reference "#PWR01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 254 151.13 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e90055ad-0559-49eb-9708-7a7f7fcd233f)
+    (property "Reference" "FID6" (at 256.159 150.106 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (at 256.159 152.154 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm" (at 254 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 254 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "FID6") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "FID2") (unit 1)
+        )
+      )
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "FID6") (unit 1)
         )
       )
     )
