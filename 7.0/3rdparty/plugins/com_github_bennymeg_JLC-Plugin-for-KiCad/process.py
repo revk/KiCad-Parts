@@ -93,7 +93,11 @@ class ProcessManager:
                     layer_info[0],
                     pcbnew.PLOT_FORMAT_GERBER,
                     layer_info[2])
-                plot_controller.PlotLayer()
+                seq = pcbnew.LSEQ()
+                seq.push_back(layer_info[1])
+                if layer_info[1] == pcbnew.Edge_Cuts :
+                    seq.push_back(pcbnew.User_1)
+                plot_controller.PlotLayers(seq)
 
         plot_controller.ClosePlot()
 
