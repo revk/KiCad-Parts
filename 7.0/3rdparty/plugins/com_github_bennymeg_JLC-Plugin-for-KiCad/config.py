@@ -23,6 +23,5 @@ plotPlan = [
     ("F.Paste", pcbnew.F_Paste, "Top Paste (Stencil)"),
     ("B.Paste", pcbnew.B_Paste, "Bottom Paste (Stencil)"),
     ("Edge.Cuts", pcbnew.Edge_Cuts, "Board Outline"),
-    ("User.Comments", pcbnew.Cmts_User, "User Comments"),
-    ("V.Cuts", pcbnew.Eco1_User, "V Cuts")
+    ("User.Comments", pcbnew.Cmts_User, "User Comments")
 ]
