@@ -232,7 +232,7 @@
       )
     )
     (symbol "CH340X_1_1"
-      (text "4k7 CTS\nto DTR" (at 6.35 -1.905 0)
+      (text "For DTR:\nCTS to DTR\nLink or 4k7" (at 6.35 -2.54 0)
         (effects (font (size 1 1)) (justify right))
       )
       (pin bidirectional line (at -10.16 1.27 0) (length 2.54)
@@ -4660,7 +4660,7 @@
       )
     )
   )
-  (symbol "VCUT" (in_bom yes) (on_board yes)
+  (symbol "VCUT" (in_bom no) (on_board yes)
     (property "Reference" "V" (at 0 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4671,6 +4671,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "VCUT_0_1"
