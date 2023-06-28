@@ -832,27 +832,35 @@
           (stroke (width 0) (type default))
           (fill (type none))
         )
-        (polyline
-          (pts
-            (xy -4.445 -3.175)
-            (xy 4.445 -3.175)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.445 3.175)
-            (xy 4.445 3.175)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
         (circle (center 3.81 -3.81) (radius 0.0001)
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (circle (center 3.81 3.81) (radius 0.0001)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
+    (symbol "RevK:VCUT" (in_bom yes) (on_board yes)
+      (property "Reference" "V" (at 0 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "RevK:VCUT70" (at 0 -1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VCUT_0_1"
+        (polyline
+          (pts
+            (xy -4.445 0)
+            (xy 4.445 0)
+          )
           (stroke (width 0) (type default))
           (fill (type none))
         )
@@ -1449,6 +1457,30 @@
       (project "Reference"
         (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
           (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RevK:VCUT") (at 245.11 177.165 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2ded2adf-bf6d-4592-955f-b3d0a621a102)
+    (property "Reference" "V2" (at 245.11 178.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "~" (at 245.11 177.165 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "RevK:VCUT70" (at 245.11 175.895 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 245.11 177.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "V2") (unit 1)
         )
       )
     )
@@ -2213,6 +2245,30 @@
       (project "Reference"
         (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
           (reference "#PWR01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "RevK:VCUT") (at 245.11 170.815 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e4394d77-84ac-4adb-865c-440e22d4b27d)
+    (property "Reference" "V1" (at 245.11 169.545 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "~" (at 245.11 170.815 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "RevK:VCUT70" (at 245.11 172.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 245.11 170.815 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Reference"
+        (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
+          (reference "V1") (unit 1)
         )
       )
     )
