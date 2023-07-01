@@ -1656,7 +1656,7 @@
     (property "Reference" "R4" (at 121.285 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "40k2" (at 125.095 99.06 90)
+    (property "Value" "39k2" (at 125.095 99.06 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "RevK:R_0402_" (at 120.65 99.06 0)
