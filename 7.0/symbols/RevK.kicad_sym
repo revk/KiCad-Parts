@@ -55,7 +55,7 @@
     (property "LCSC Part #" "C193381" (at 9.525 5.969 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB Rotation Offset" "90" (at 0 0 0)
+    (property "JLCPCB Rotation Offset" "-90" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "ki_description" "60 V, 320 mA dual N-channel Trench MOSFET" (at 0 0 0)
