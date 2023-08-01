@@ -1,6 +1,6 @@
 (footprint "Shelly" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr through_hole allow_soldermask_bridges)
   (fp_text reference "REF**" (at 0 -3.1 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 646d9e91-59b4-4865-a2fc-29780ed32563)
