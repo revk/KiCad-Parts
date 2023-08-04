@@ -1,5 +1,6 @@
 (footprint "PTSM-HH1-2-RA" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (zone_connect 1)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 6.4 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))

@@ -2,6 +2,7 @@
   (layer "F.Cu")
   (descr "USB Type C CMT R/A PCB  Mount Socket 16pin Power+Data")
   (tags "USB-C")
+  (zone_connect 1)
   (attr smd)
   (fp_text reference "REF**" (at 0 -7.9) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
