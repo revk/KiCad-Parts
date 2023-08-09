@@ -21,7 +21,7 @@
     (thermal_bridge_angle 45) (tstamp 53cce491-bb3d-49eb-81f3-799464fdf327))
   (pad "2" smd roundrect (at 3.65 0) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp bdc4710c-67ef-4cdd-b400-28966c539124))
-  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQPE1.wrl"
+  (model "${REVK_3D}/TS-1092S-B3D2-G.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
