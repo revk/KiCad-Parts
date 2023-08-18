@@ -15,7 +15,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e528bf6d-31d5-43ef-93ee-5c66ef16d263)
   )
-  (fp_line (start -1.1 -1) (end -1.1 1)
+  (fp_line (start -1.1 -0.9) (end -1.1 0.9)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 836e35df-fc63-4222-8240-6b9d2028540a))
   (fp_line (start -1.9 -0.95) (end -1.9 0.95)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 540811c8-94b8-4e1c-9254-eafd40a36ed6))

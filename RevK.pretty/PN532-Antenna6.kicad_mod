@@ -1,6 +1,6 @@
 (footprint "PN532-Antenna6" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr smd exclude_from_pos_files exclude_from_bom)
+  (attr smd exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
   (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     (tstamp c1aab882-1d6b-44ea-96fe-138fda7780dc)
@@ -162,8 +162,8 @@
       (gr_arc (start -20.49 22.66) (mid -19.804633 17.117851) (end -17.712723 11.940104) (width 0.5))
       (gr_arc (start -17.55 33.34) (mid -19.714342 28.220492) (end -20.489517 22.716599) (width 0.5))
       (gr_arc (start -9.69 41.08) (mid -14.112277 37.737594) (end -17.530227 33.373442) (width 0.5))
-      (gr_arc (start 0.95 43.85) (mid -4.524999 43.176488) (end -9.639123 41.108891) (width 0.5))
-      (gr_arc (start 11.5 40.94) (mid 6.445134 43.083047) (end 1.008514 43.849519) (width 0.5))
+      (gr_arc (start 0.95 43.85) (mid -4.524998 43.176488) (end -9.639123 41.108891) (width 0.5))
+      (gr_arc (start 11.5 40.94) (mid 6.445134 43.083048) (end 1.008514 43.84952) (width 0.5))
       (gr_arc (start 19.16 33.17) (mid 15.881104 37.528364) (end 11.585907 40.88958) (width 0.5))
       (gr_arc (start 21.89 22.66) (mid 21.222235 28.081376) (end 19.174069 33.145192) (width 0.5))
       (gr_arc (start 19.01 12.23) (mid 21.136421 17.23706) (end 21.889763 22.624526) (width 0.5))
