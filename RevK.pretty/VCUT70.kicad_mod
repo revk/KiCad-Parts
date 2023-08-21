@@ -1,6 +1,6 @@
 (footprint "VCUT70" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr exclude_from_bom)
+  (attr exclude_from_bom allow_soldermask_bridges)
   (fp_text reference "REF**" (at -29 0.2 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify left top))
     (tstamp f10e8c54-81bc-4f5a-bb1a-ed3d20e7c1cb)
@@ -36,7 +36,7 @@
   (zone (net 0) (net_name "") (layers "F.Cu" "Cmts.User") (tstamp 8e6d225d-c390-4412-96ed-99bcc1981189) (hatch edge 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.25) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
     (polygon
       (pts
@@ -50,7 +50,7 @@
   (zone (net 0) (net_name "") (layers "B.Cu" "Cmts.User") (tstamp fd4d9688-4c74-49ab-9e06-1d10dee12a41) (hatch edge 0.5)
     (connect_pads (clearance 0))
     (min_thickness 0.25) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
     (polygon
       (pts
