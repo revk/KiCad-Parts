@@ -186,9 +186,9 @@ class ProcessManager:
 
                 self.components.append({
                     'Designator': designator,
-                    'Mid X': mid_x,
-                    'Mid Y': mid_y,
-                    'Rotation': rotation,
+                    'Mid X': round(mid_x, 4),
+                    'Mid Y': round(mid_y, 4),
+                    'Rotation': round(rotation),
                     'Layer': layer,
                 })
 
@@ -206,7 +206,7 @@ class ProcessManager:
                     same_value = component['Value'].upper() == footprint.GetValue().upper()
                     same_lcsc = component['LCSC Part #'] == self._get_mpn_from_footprint(footprint)
 
-                    if same_footprint and same_value and same_lcsc:
+                    if same_footprint and same_value and same_lcsc and component['Quantity'] < 400:
                         component['Designator'] += ", " + "{}{}{}".format(footprint.GetReference(), "" if unique_id == "" else "_", unique_id)
                         component['Quantity'] += 1
                         insert = False
