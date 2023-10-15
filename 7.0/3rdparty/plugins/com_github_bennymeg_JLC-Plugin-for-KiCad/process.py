@@ -186,8 +186,8 @@ class ProcessManager:
 
                 self.components.append({
                     'Designator': designator,
-                    'Mid X': round(mid_x, 4),
-                    'Mid Y': round(mid_y, 4),
+                    'Mid X': round(mid_x, 2),
+                    'Mid Y': round(mid_y, 2),
                     'Rotation': round(rotation),
                     'Layer': layer,
                 })
