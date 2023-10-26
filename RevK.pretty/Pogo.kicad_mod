@@ -1,0 +1,13 @@
+(footprint "Pogo" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -1.6 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3af6cb9f-060a-4d96-b2be-30974f126c58)
+  )
+  (fp_text value "Pogo" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp be90ecde-093a-4f58-92e6-1b1e64d83158)
+  )
+  (pad "1" thru_hole oval (at 0 0) (size 1.5 1) (drill 0.7) (layers "*.Cu" "*.Mask") (tstamp 6830137c-6a61-46f2-bcf0-c38ba5c80da3))
+)

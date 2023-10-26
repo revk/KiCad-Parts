@@ -1,5 +1,6 @@
 (footprint "PCB7070" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (attr exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 34 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b95dc2ce-259d-46a4-be0f-52961e4d1387)
