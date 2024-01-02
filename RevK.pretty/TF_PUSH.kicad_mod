@@ -64,4 +64,9 @@
   (pad "S" smd roundrect (at -7.75 5.35) (size 1.2 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1e869390-52a2-4474-99c7-4632b9c26c2b))
   (pad "S" smd roundrect (at 6.85 -4.25) (size 1.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a30f8752-3449-4c5b-bf2d-853d16346289))
   (pad "S" smd roundrect (at 7.75 5.35) (size 1.2 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 24d018bd-5efd-4934-966b-75705d2fcd2a))
+  (model "${REVK_3D}/TF_PUSH.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
