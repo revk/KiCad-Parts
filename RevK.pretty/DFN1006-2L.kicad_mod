@@ -13,9 +13,9 @@
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 75bede3e-1491-4c0b-b7b2-fd147b51a66d))
   (fp_rect (start -0.5 -0.3) (end 0.5 0.3)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.Fab") (tstamp a80e1ede-317e-486b-b4d4-32088ee5a385))
-  (pad "1" smd roundrect (at -0.325 0) (size 0.35 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+  (pad "1" smd roundrect (at -0.425 0) (size 0.45 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp fcd61872-450a-441d-98bf-09537a8a58a7))
-  (pad "2" smd roundrect (at 0.325 0) (size 0.35 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+  (pad "2" smd roundrect (at 0.425 0) (size 0.45 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 12cc8e87-f588-4842-9b4a-0af592c78d4c))
   (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
     (offset (xyz 0 0 0))
