@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "SOT-23-6-MD8942"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -153,6 +153,17 @@
 		(uuid "780e2031-e0c5-4e94-aa22-a87d262804c4")
 	)
 	(fp_circle
+		(center 1.55 1.5)
+		(end 1.75 1.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "Dwgs.User")
+		(uuid "c9a94c3d-ef20-4eeb-b812-0b728b4dec47")
+	)
+	(fp_circle
 		(center 1.800001 -1.9)
 		(end 1.850001 -1.9)
 		(stroke
@@ -185,17 +196,6 @@
 		(fill none)
 		(layer "Dwgs.User")
 		(uuid "bed637e5-be96-4d7e-8396-037ec84b3ec2")
-	)
-	(fp_circle
-		(center 1.55 1.5)
-		(end 1.75 1.5)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "Cmts.User")
-		(uuid "c9a94c3d-ef20-4eeb-b812-0b728b4dec47")
 	)
 	(fp_line
 		(start -1.5 -1.5)

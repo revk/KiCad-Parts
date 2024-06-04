@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "C_0603"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -67,72 +67,32 @@
 	(attr smd)
 	(fp_line
 		(start -1.15 -0.5)
-		(end 1.15 -0.5)
+		(end -0.9 -0.5)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "d0ef8788-5d1d-4d4b-ad6f-de26528e5b89")
+		(uuid "96f5c8cb-fb77-43e5-ac09-54eb1161c696")
 	)
 	(fp_line
 		(start -1.15 0.5)
 		(end -1.15 -0.5)
 		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "c38f19d0-fa7b-4177-b0da-d4a2900bb6cc")
-	)
-	(fp_line
-		(start 1.15 -0.5)
-		(end 1.15 0.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "2803251c-58b8-4f18-8af4-fe8a4f0658e9")
-	)
-	(fp_line
-		(start 1.15 0.5)
-		(end -1.15 0.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "93d0d7a5-2e03-4f45-8052-64761507af4d")
-	)
-	(fp_line
-		(start -0.8 -0.4)
-		(end -0.55 -0.4)
-		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "Cmts.User")
-		(uuid "96f5c8cb-fb77-43e5-ac09-54eb1161c696")
-	)
-	(fp_line
-		(start -0.8 0.4)
-		(end -0.8 -0.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "58ddc663-b2cf-4977-9df6-a1c8e1d20409")
 	)
 	(fp_line
-		(start -0.55 0.4)
-		(end -0.8 0.4)
+		(start -0.9 0.5)
+		(end -1.15 0.5)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "7eaad2d8-2e9c-4fdd-9ae3-623719a522b0")
 	)
 	(fp_line
@@ -142,37 +102,37 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "ac268ee5-1572-4c7f-8d6c-7ab34e122e9f")
 	)
 	(fp_line
-		(start 0.55 -0.4)
-		(end 0.8 -0.4)
+		(start 0.895 -0.5)
+		(end 1.145 -0.5)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "2ed86303-0da5-4d57-8eab-cd1d0cde1b8c")
 	)
 	(fp_line
-		(start 0.8 -0.4)
-		(end 0.8 0.4)
+		(start 1.145 -0.5)
+		(end 1.149992 0.5)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "1d953a56-fb06-4d28-bcbe-51b7ca7a86df")
 	)
 	(fp_line
-		(start 0.8 0.4)
-		(end 0.55 0.4)
+		(start 1.15 0.5)
+		(end 0.9 0.5)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "92d46301-a6d6-4355-abda-4d0928554c49")
 	)
 	(fp_circle
@@ -183,7 +143,7 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "70f147c2-f458-4d10-b9c8-abf28a31add4")
 	)
 	(fp_line

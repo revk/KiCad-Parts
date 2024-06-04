@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "SMD1010+"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -67,8 +67,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.1 -0.9)
-		(end 0.3 -0.9)
+		(start -0.09 -0.93)
+		(end 0.31 -0.93)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -77,8 +77,8 @@
 		(uuid "4febbdf5-68db-41b1-9055-d51c45ace5cc")
 	)
 	(fp_line
-		(start 0.1 -1.1)
-		(end 0.1 -0.7)
+		(start 0.11 -1.13)
+		(end 0.11 -0.73)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -87,8 +87,8 @@
 		(uuid "97e97fbf-9873-40d2-a937-b1eff8aaee83")
 	)
 	(fp_circle
-		(center -0.9 -0.5)
-		(end -0.775 -0.5)
+		(center -1 -0.23)
+		(end -0.875 -0.23)
 		(stroke
 			(width 0)
 			(type solid)
@@ -149,36 +149,6 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "ad3a03ba-4e3c-4e08-908a-04b2123bed4f")
-	)
-	(fp_line
-		(start -0.6 0.425)
-		(end -0.25 0.425)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "0d5fe492-5975-48ca-ad82-5e590293011d")
-	)
-	(fp_line
-		(start 0.25 -0.425)
-		(end 0.6 -0.425)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "838a8f43-0a8a-47e5-9f06-b132dc606d9f")
-	)
-	(fp_line
-		(start 0.425 -0.6)
-		(end 0.425 -0.25)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "3be3864e-e7f7-4339-accd-38d29e885a8a")
 	)
 	(fp_line
 		(start -0.55 -0.55)
@@ -287,30 +257,6 @@
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "392ad231-b8d8-45dd-8631-d8e8e3fc9843")
-		(effects
-			(font
-				(size 0.2 0.2)
-				(thickness 0.05)
-			)
-		)
-	)
-	(fp_text user "DI"
-		(at 0.425 0.425 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "1e9e20c5-f49f-4e3e-8f71-dd745be20e4b")
-		(effects
-			(font
-				(size 0.2 0.2)
-				(thickness 0.05)
-			)
-		)
-	)
-	(fp_text user "DO"
-		(at -0.425 -0.425 0)
-		(unlocked yes)
-		(layer "Cmts.User")
-		(uuid "4b69eb60-77a2-4eb8-a890-29f3c07788e2")
 		(effects
 			(font
 				(size 0.2 0.2)
