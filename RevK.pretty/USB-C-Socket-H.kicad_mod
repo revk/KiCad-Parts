@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -68,6 +71,16 @@
 	(attr through_hole)
 	(fp_line
 		(start -4.5 -3.02)
+		(end -4.49 -3.02)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Adhes")
+		(uuid "8a6508e2-64eb-41ba-839e-f6cedf387a70")
+	)
+	(fp_line
+		(start 4.49 -3.02)
 		(end 4.5 -3.02)
 		(stroke
 			(width 0.12)

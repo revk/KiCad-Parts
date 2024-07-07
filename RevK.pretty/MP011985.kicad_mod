@@ -68,6 +68,107 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -3.5 1.5)
+		(end -4 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fc7b4164-16ac-4c9e-8487-0ee9a2f723bc")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end -3.5 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f06a42a4-0cb2-4f5d-a5ff-017963bfad04")
+	)
+	(fp_line
+		(start -3 2)
+		(end -3.5 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ce32b508-0b7b-4873-936c-d0bc76e788a9")
+	)
+	(fp_line
+		(start 0 1.5)
+		(end -0.5 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "29370245-9b20-48f5-87e7-dd2cb949eb41")
+	)
+	(fp_line
+		(start 0 3.5)
+		(end 0 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a8f6a26d-6ab8-4173-bfc6-7595d80b1995")
+	)
+	(fp_line
+		(start 0.5 2)
+		(end 0 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "210a7b61-5e80-4499-b8b8-e56037fb9d59")
+	)
+	(fp_line
+		(start 3.5 1.5)
+		(end 3 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0803672b-f82c-4921-9108-343efe952538")
+	)
+	(fp_line
+		(start 3.5 3.5)
+		(end 3.5 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8d02402c-7fe3-40d6-859c-12d2041930bd")
+	)
+	(fp_line
+		(start 4 2)
+		(end 3.5 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97a8e4b1-f70d-4db8-a928-02f0a27b3b27")
+	)
+	(fp_circle
+		(center -4.5 -2.5)
+		(end -4 -2.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "a639b887-4892-43e4-99f7-1ff8695a00d8")
+	)
 	(fp_rect
 		(start -5.5 -3.5)
 		(end 5.5 3.5)
@@ -136,12 +237,12 @@
 		)
 		(uuid "d7963714-ee82-4b70-bc40-27bf0c92c021")
 	)
-	(model "${REVK_3D}/MP011985.stp"
+	(model "${REVK_3D}/MP011985.wrl"
 		(offset
-			(xyz -8.76 -3.4 0.5)
+			(xyz -8.76 -3.4 0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.3937 0.3937 0.3937)
 		)
 		(rotate
 			(xyz -90 0 0)
