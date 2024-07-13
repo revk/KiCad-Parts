@@ -559,15 +559,4 @@
 		(clearance 0.1)
 		(uuid "06b3abb3-f27a-4126-9237-bac094be725f")
 	)
-	(model "${REVK_3D}/140x140.wrl"
-		(offset
-			(xyz 0 0 -5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

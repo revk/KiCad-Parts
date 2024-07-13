@@ -1,29 +1,99 @@
-(footprint "SMD1010-Hole" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
-  (tags "LED RGB NeoPixel")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -1.45) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 29976fa0-918e-48c1-ba81-319324267df7)
-  )
-  (fp_text value "SMD1010-Hole" (at 0 2.25) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 11f34c85-b80f-46bd-b71d-beeef7ef25a2)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 0.2 0.2) (thickness 0.03)))
-    (tstamp c5756b5f-7ccc-4d42-872b-98775daca562)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1.8) (layers "*.Cu" "F.Mask") (tstamp 8a62c259-3cfc-403e-9acc-5bd568865b4d))
-  (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
-    (offset (xyz 0 0.25 -1))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
-    (offset (xyz 0 -0.25 -1))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SMD1010-Hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+	(tags "LED RGB NeoPixel")
+	(property "Reference" "REF**"
+		(at 0 -1.45 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "29976fa0-918e-48c1-ba81-319324267df7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD1010-Hole"
+		(at 0 2.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11f34c85-b80f-46bd-b71d-beeef7ef25a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c85d47d-dd43-4c20-a94e-3e46a357c2a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bbfa46e-70b6-4a17-a943-c7d865991e37")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffd1efbc-d59a-46b4-9e1c-05b83e445e39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c5756b5f-7ccc-4d42-872b-98775daca562")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.03)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.8)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "8a62c259-3cfc-403e-9acc-5bd568865b4d")
+	)
+	(model "${REVK_3D}/SMD1010.wrl"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

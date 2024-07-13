@@ -38,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -50,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +64,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -368,20 +371,9 @@
 		(thermal_bridge_angle 45)
 		(uuid "5b79cb28-9574-496c-a99d-4b782d7b08b9")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
+	(model "${REVK_3D}/SMD1010.wrl"
 		(offset
-			(xyz 0 0.25 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
 			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"
-		(offset
-			(xyz 0 -0.25 0)
 		)
 		(scale
 			(xyz 1 1 1)

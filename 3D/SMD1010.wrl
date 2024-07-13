@@ -1,0 +1,103 @@
+#VRML V2.0 utf8
+# OpenSCAD Model
+
+Transform {
+	scale .3937 .3937 .3937
+	children [
+		Transform {
+			translation -0.25 0.25 0.3
+			children [
+				Shape {
+					appearance Appearance {
+                                		material Material {
+                                        		diffuseColor 0 1 0
+                                        		ambientIntensity 0.2
+                                        		specularColor 0.8 0.8 0.8
+                                        		shininess 0.8
+                                        		transparency 0
+                                		}
+                        		}
+					geometry Box {
+						size 0.2 0.2 0.1
+					}
+				}
+			]
+		}
+		Transform {
+			translation 0.25 0.25 0.3
+			children [
+				Shape {
+					appearance Appearance {
+                                		material Material {
+                                        		diffuseColor 1 0 0
+                                        		ambientIntensity 0.2
+                                        		specularColor 0.8 0.8 0.8
+                                        		shininess 0.8
+                                        		transparency 0
+                                		}
+                        		}
+					geometry Box {
+						size 0.2 0.2 0.1
+					}
+				}
+			]
+		}
+		Transform {
+			translation 0 -0.25 0.3
+			children [
+				Shape {
+					appearance Appearance {
+                                		material Material {
+                                        		diffuseColor 0 0 1
+                                        		ambientIntensity 0.2
+                                        		specularColor 0.8 0.8 0.8
+                                        		shininess 0.8
+                                        		transparency 0
+                                		}
+                        		}
+					geometry Box {
+						size 0.2 0.2 0.1
+					}
+				}
+			]
+		}
+		Transform {
+			translation 0 0 0.54
+			children [
+				Shape {
+					appearance Appearance {
+                                		material Material {
+                                        		diffuseColor 1 1 1
+                                        		ambientIntensity 0.2
+                                        		specularColor 0.8 0.8 0.8
+                                        		shininess 0.2
+                                        		transparency 0.5
+                                		}
+                        		}
+					geometry Box {
+						size 1 1 0.52
+					}
+				}
+			]
+		}
+		Transform {
+			translation 0 0 0.14
+			children [
+				Shape {
+					appearance Appearance {
+                                		material Material {
+                                        		diffuseColor 0.5 0.5 0.5
+                                        		ambientIntensity 0.2
+                                        		specularColor 0.8 0.8 0.8
+                                        		shininess 0.8
+                                        		transparency 0
+                                		}
+                        		}
+					geometry Box {
+						size 1 1 0.28
+					}
+				}
+			]
+		}
+	]
+}

@@ -69,18 +69,18 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_line
-		(start -3.5 -2)
-		(end 3.5 -2)
+		(start -3.5 -0.5)
+		(end -2.5 -1.5)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "1aba0165-c4dd-4219-baab-525735b4a8cc")
+		(uuid "b162c36e-3fff-4cd1-87c3-15999273bffd")
 	)
 	(fp_line
-		(start -3.5 2)
-		(end -3.5 -2)
+		(start -3.5 0.5)
+		(end -3.5 -0.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -89,8 +89,28 @@
 		(uuid "538e511d-087a-4738-8dd5-a78e43f1258e")
 	)
 	(fp_line
-		(start 3.5 -2)
-		(end 3.5 2)
+		(start -3.5 0.5)
+		(end -2.5 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "604e40b8-67fe-4c7a-bb27-fd93bd8ad2b8")
+	)
+	(fp_line
+		(start -2.5 -1.5)
+		(end 3 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1aba0165-c4dd-4219-baab-525735b4a8cc")
+	)
+	(fp_line
+		(start 3 -1.5)
+		(end 3 1.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -99,8 +119,8 @@
 		(uuid "c27a14a3-5c92-4f97-919d-858062e7897f")
 	)
 	(fp_line
-		(start 3.5 2)
-		(end -3.5 2)
+		(start 3 1.5)
+		(end -2.5 1.5)
 		(stroke
 			(width 0.05)
 			(type solid)
