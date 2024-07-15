@@ -376,9 +376,9 @@
 		(pts
 			(xy 35 35) (xy 35 -35)
 		)
-		(height 3)
+		(height -2)
 		(gr_text "70 mm"
-			(at 36.85 0 90)
+			(at 31.85 0 90)
 			(layer "Dwgs.User")
 			(uuid "28a6f725-828a-4460-9df4-85b6ca7510fc")
 			(effects
@@ -408,9 +408,9 @@
 		(pts
 			(xy -35 35) (xy 35 35)
 		)
-		(height 3)
+		(height -2)
 		(gr_text "70 mm"
-			(at 0 36.85 0)
+			(at 0 31.85 0)
 			(layer "Dwgs.User")
 			(uuid "c46e8eec-5750-43c9-8253-4cff4e566b92")
 			(effects
