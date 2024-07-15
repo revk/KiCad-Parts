@@ -79,9 +79,9 @@
 		(layer "F.Adhes")
 		(uuid "a8ae2932-8120-4587-9b31-6efef62305f1")
 	)
-	(model "${REVK_3D}/140x140.wrl"
+	(model "${REVK_3D}/Shadow.wrl"
 		(offset
-			(xyz 0 0 -10)
+			(xyz 0 0 -5)
 		)
 		(scale
 			(xyz 1 1 1)
