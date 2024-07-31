@@ -371,15 +371,15 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "Dwgs.User")
+		(layer "Eco1.User")
 		(uuid "28a6f725-828a-4460-9df4-85b6ca7510fc")
 		(pts
-			(xy 35 35) (xy 35 -35)
+			(xy -30 35) (xy -30 -35)
 		)
 		(height -2)
 		(gr_text "70 mm"
-			(at 31.85 0 90)
-			(layer "Dwgs.User")
+			(at -33.15 0 90)
+			(layer "Eco1.User")
 			(uuid "28a6f725-828a-4460-9df4-85b6ca7510fc")
 			(effects
 				(font
@@ -403,15 +403,15 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "Dwgs.User")
+		(layer "Eco1.User")
 		(uuid "c46e8eec-5750-43c9-8253-4cff4e566b92")
 		(pts
-			(xy -35 35) (xy 35 35)
+			(xy -35 -26) (xy 35 -26)
 		)
 		(height -2)
 		(gr_text "70 mm"
-			(at 0 31.85 0)
-			(layer "Dwgs.User")
+			(at 0 -29.15 0)
+			(layer "Eco1.User")
 			(uuid "c46e8eec-5750-43c9-8253-4cff4e566b92")
 			(effects
 				(font

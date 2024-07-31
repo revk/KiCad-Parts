@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -143,7 +146,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "12cc8e87-f588-4842-9b4a-0af592c78d4c")
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
+	(model "${REVK_3D}/DFN1006-2L.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -8,13 +8,13 @@ Transform {
                              		material Material {
                                  		diffuseColor 0 0 0
                                  		ambientIntensity 0
-                                 		specularColor .8 .8 .8
+                                 		specularColor .2 .2 .2
                                  		shininess 0.2
                                  		transparency 0
                              		}
                     		}
 				geometry Box {
-				size 0.55 0.95 0.44
+				size 0.95 0.55 0.44
 			}
 		}
 	]
