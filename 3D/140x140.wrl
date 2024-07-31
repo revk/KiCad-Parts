@@ -1,0 +1,48 @@
+#VRML V2.0 utf8
+# OpenSCAD Model
+
+Group {
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 1.0 1.0 1.0
+					ambientIntensity 0.2
+					specularColor 0.8 0.8 0.8
+					shininess 0.4
+					transparency 0
+				}
+			}
+			geometry IndexedFaceSet {
+				ccw TRUE
+				solid FALSE
+				coord DEF co Coordinate {
+					point [
+						-70 -70 -0.5,
+						-70 -70 0.5,
+						-70 70 -0.5,
+						-70 70 0.5,
+						70 -70 -0.5,
+						70 -70 0.5,
+						70 70 -0.5,
+						70 70 0.5,
+					]
+				}
+				coordIndex [
+					3, 5, 7, -1,
+					5, 3, 1, -1,
+					0, 6, 4, -1,
+					6, 0, 2, -1,
+					0, 5, 1, -1,
+					5, 0, 4, -1,
+					5, 6, 7, -1,
+					6, 5, 4, -1,
+					6, 3, 7, -1,
+					3, 6, 2, -1,
+					0, 3, 2, -1,
+					3, 0, 1, -1,
+				]
+			}
+		}
+	]
+}
