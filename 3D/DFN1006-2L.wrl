@@ -3,19 +3,24 @@
 Transform {
 	scale .3937 .3937 .3937
 	children [
-		Shape {
-				appearance Appearance {
-                             		material Material {
-                                 		diffuseColor 0 0 0
-                                 		ambientIntensity 0
-                                 		specularColor .2 .2 .2
-                                 		shininess 0.2
-                                 		transparency 0
-                             		}
-                    		}
-				geometry Box {
-				size 0.95 0.55 0.44
-			}
+	        Transform {
+                	translation 0 0 0.22
+                	children [
+				Shape {
+					appearance Appearance {
+                             			material Material {
+                                 			diffuseColor 0 0 0
+                                 			ambientIntensity 0
+                                 			specularColor .2 .2 .2
+                                 			shininess 0.2
+                                 			transparency 0
+                             			}
+                    			}
+					geometry Box {
+						size 0.95 0.55 0.44
+					}
+				}
+			]
 		}
 	]
 }
