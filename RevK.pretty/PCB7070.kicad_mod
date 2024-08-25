@@ -70,50 +70,6 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 	(fp_rect
-		(start -34 -34)
-		(end -33 -33)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "7ae8860b-532d-4bd4-9866-417645f6e7a8")
-	)
-	(fp_rect
-		(start 33 33)
-		(end 34 34)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "ce107cc9-62d8-4123-a291-96be675b9a27")
-	)
-	(fp_rect
-		(start -34 -34)
-		(end -33 -33)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "B.Cu")
-		(uuid "96fdfe8c-49b5-4f4f-9c8e-4311a95b25e5")
-	)
-	(fp_rect
-		(start 33 33)
-		(end 34 34)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "B.Cu")
-		(uuid "6a7502a3-79a0-4e17-8a2e-d8c230d16e50")
-	)
-	(fp_rect
 		(start -35 -35)
 		(end 35 -28)
 		(stroke
