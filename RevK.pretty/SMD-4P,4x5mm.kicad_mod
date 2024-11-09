@@ -122,4 +122,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "3dcaed45-8460-432b-b943-93d7361f539b")
 	)
+	(model "${REVK_3D}/SMD-4P-4x5.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

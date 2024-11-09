@@ -6,7 +6,7 @@
 	(descr "Tantalum Capacitor SMD Kemet-B (3528-21 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor tantalum")
 	(property "Reference" "REF**"
-		(at 0 -2.35 0)
+		(at 0 2.35 180)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "aeb6e06d-0538-4bec-ae82-202ad78a4393")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "CP_EIA-3528-21_Kemet-B"
-		(at 0 2.35 0)
+		(at 0 -2.35 180)
 		(layer "F.Fab")
 		(uuid "25307627-403c-464e-aaba-c4ba1c1b9abd")
 		(effects
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,7 +55,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -69,18 +69,18 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.7 -1.35)
-		(end -2 -1.35)
+		(start 0.5 0.9)
+		(end 0.5 -0.9)
 		(stroke
-			(width 0.2)
+			(width 0.5)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "94ec7a29-5ab1-4825-a4a7-ccbc68fe8f9c")
+		(uuid "fdc42762-40b2-4df0-8321-3f0d7bfca6d1")
 	)
 	(fp_line
-		(start -2.35 -1.7)
-		(end -2.35 -1)
+		(start 2.35 1.7)
+		(end 2.35 1)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -89,14 +89,14 @@
 		(uuid "fb7ba832-1016-4c45-a3d9-7e10aab836b5")
 	)
 	(fp_line
-		(start -0.5 -0.9)
-		(end -0.5 0.9)
+		(start 2.7 1.35)
+		(end 2 1.35)
 		(stroke
-			(width 0.5)
+			(width 0.2)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "fdc42762-40b2-4df0-8321-3f0d7bfca6d1")
+		(uuid "94ec7a29-5ab1-4825-a4a7-ccbc68fe8f9c")
 	)
 	(fp_line
 		(start -2.45 -1.65)
@@ -106,7 +106,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e3db754e-00cb-4258-84bf-fe50e3f1e6ce")
+		(uuid "d12aa846-78dd-4fa3-8d9f-9821cf27ffcb")
 	)
 	(fp_line
 		(start -2.45 1.65)
@@ -116,7 +116,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c29b7134-d383-465d-a530-45277867eb2a")
+		(uuid "0f60a885-d826-4298-9bac-2a5bb8c97970")
 	)
 	(fp_line
 		(start 2.45 -1.65)
@@ -126,7 +126,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0f60a885-d826-4298-9bac-2a5bb8c97970")
+		(uuid "c29b7134-d383-465d-a530-45277867eb2a")
 	)
 	(fp_line
 		(start 2.45 1.65)
@@ -136,31 +136,31 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d12aa846-78dd-4fa3-8d9f-9821cf27ffcb")
+		(uuid "e3db754e-00cb-4258-84bf-fe50e3f1e6ce")
 	)
 	(fp_line
-		(start -1.75 -0.7)
+		(start -1.75 -1.4)
 		(end -1.75 1.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "28696757-5b1a-482f-aaf4-3e654196163a")
+		(uuid "3ebcd95e-5914-4612-9966-85f7a62f807d")
 	)
 	(fp_line
 		(start -1.75 1.4)
-		(end 1.75 1.4)
+		(end 1.05 1.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a6971670-d45e-4156-b4e0-a0995c19d1b9")
+		(uuid "499d3a74-1d16-4585-8960-5a8370b680b6")
 	)
 	(fp_line
-		(start -1.05 -1.4)
-		(end -1.75 -0.7)
+		(start 1.05 1.4)
+		(end 1.75 0.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -170,26 +170,26 @@
 	)
 	(fp_line
 		(start 1.75 -1.4)
-		(end -1.05 -1.4)
+		(end -1.75 -1.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "499d3a74-1d16-4585-8960-5a8370b680b6")
+		(uuid "a6971670-d45e-4156-b4e0-a0995c19d1b9")
 	)
 	(fp_line
-		(start 1.75 1.4)
+		(start 1.75 0.7)
 		(end 1.75 -1.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3ebcd95e-5914-4612-9966-85f7a62f807d")
+		(uuid "28696757-5b1a-482f-aaf4-3e654196163a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(uuid "9ce1af83-c6af-4d70-b8a7-59ad60196d9f")
 		(effects
@@ -200,14 +200,14 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.5375 0)
+		(at 1.5375 0 180)
 		(size 1.325 2.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.188679)
 		(uuid "ea4512fa-e5e2-4b36-919c-150597e00337")
 	)
 	(pad "2" smd roundrect
-		(at 1.5375 0)
+		(at -1.5375 0 180)
 		(size 1.325 2.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.188679)
@@ -221,7 +221,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 180)
 		)
 	)
 )
