@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 7.1 0)
+		(at 0 -1.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "WLP-1.437mmx1.347mm-0.21mm-ball"
-		(at 0 8.6 0)
+		(at 0 1.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ffef708c-3429-4e01-ab58-0d5362297a23")
@@ -143,5 +143,16 @@
 		(size 0.21 0.21)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "647f3c9f-9ca0-4923-b09d-8ffc7f996fba")
+	)
+	(model "${REVK_3D}/WLP-1.437-1.347.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
