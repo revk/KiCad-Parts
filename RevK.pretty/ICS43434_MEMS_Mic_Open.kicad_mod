@@ -1,4 +1,4 @@
-(footprint "ICS43434_MEMS_Mic"
+(footprint "ICS43434_MEMS_Mic_Open"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -18,7 +18,7 @@
 			)
 		)
 	)
-	(property "Value" "ICS43434_MEMS_Mic"
+	(property "Value" "ICS43434_MEMS_Mic_Open"
 		(at 0.425 -2.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -71,48 +71,15 @@
 	)
 	(attr smd)
 	(fp_arc
-		(start 0.123007 -0.000003)
-		(mid 0.162325 -0.224751)
-		(end 0.27561 -0.422802)
+		(start 0.785 0.662)
+		(mid 0.123 0)
+		(end 0.785 -0.662)
 		(stroke
 			(width 0.3)
 			(type default)
 		)
 		(layer "F.Paste")
-		(uuid "d8df6933-832d-499b-99d6-db373a991222")
-	)
-	(fp_arc
-		(start 0.784997 0.661993)
-		(mid 0.560249 0.622675)
-		(end 0.362198 0.50939)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(layer "F.Paste")
-		(uuid "e471a3f8-5d19-4e6f-9b82-0b0fdcf917ef")
-	)
-	(fp_arc
-		(start 0.785 -0.662)
-		(mid 1.009748 -0.622682)
-		(end 1.207799 -0.509397)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(layer "F.Paste")
-		(uuid "5deaad62-eae1-4690-b511-e229fda50034")
-	)
-	(fp_arc
-		(start 1.44699 -0.000004)
-		(mid 1.407672 0.224744)
-		(end 1.294387 0.422795)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(layer "F.Paste")
-		(uuid "ed66864f-f7de-4aa3-8721-ab6afc3f74a5")
+		(uuid "00de702a-b7bb-49c3-a731-b40b3e9b1b65")
 	)
 	(fp_rect
 		(start -1.675 -1.325)
@@ -188,9 +155,9 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at 0.785 0 90)
+		(at 1.2 0 90)
 		(size 0.5 0.5)
-		(drill 0.75)
+		(drill oval 0.75 1.5)
 		(layers "*.Mask")
 		(uuid "9b4e52f5-da36-4e55-8967-8ebbb0d50133")
 	)
@@ -240,11 +207,21 @@
 			(anchor circle)
 		)
 		(primitives
-			(gr_circle
-				(center 0 -0.662)
-				(end -0.662 -0.662)
+			(gr_arc
+				(start 0 -1.324)
+				(mid 0.662 -0.662)
+				(end 0 0)
 				(width 0.3)
-				(fill no)
+			)
+			(gr_line
+				(start 0 -1.324)
+				(end -0.515 -1.324)
+				(width 0.3)
+			)
+			(gr_line
+				(start 0 0)
+				(end -0.515 0)
+				(width 0.3)
 			)
 		)
 		(teardrops

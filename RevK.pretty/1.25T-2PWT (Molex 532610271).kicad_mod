@@ -1,0 +1,114 @@
+(footprint "1.25T-2PWT (Molex 532610271)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J1"
+		(at 0 -1.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eafb0a08-aa84-4dd8-a11f-2295f3ecc3c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery"
+		(at 0 -2.25 0)
+		(layer "F.Fab")
+		(uuid "83f85543-a0d7-44f2-82ac-4069689400d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Watchy:1.25T-2PWT (Molex 532610271)"
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f39d1bc6-dfa7-45be-a17d-bb325e3c34df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe84f898-9f85-4600-a703-04fe0cc9463a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f58f28f-5b85-4cd7-b4c9-47662c9530db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part #" "C177225"
+		(at 0 -1.75 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62868cb8-f68b-47cd-9fb6-67cef569c42c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "" smd rect
+		(at -3.157 -1.7)
+		(size 2.1 2.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7a637a42-3f9d-4956-a4ac-fbca0fc7f202")
+	)
+	(pad "" smd rect
+		(at 3.175 -1.7)
+		(size 2.1 2.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "27bd76c4-c6e3-499c-a7fc-0784c1d89c6e")
+	)
+	(pad "1" smd rect
+		(at -0.625 1.15)
+		(size 0.5 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "66897c25-0e20-4278-9c38-0f433c985555")
+	)
+	(pad "2" smd rect
+		(at 0.625 1.15)
+		(size 0.5 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ec93b0f9-00b3-4b3e-bcd7-4d38f51172c8")
+	)
+	(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal.step"
+		(offset
+			(xyz 0 1.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)
