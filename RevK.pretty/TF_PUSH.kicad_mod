@@ -401,7 +401,7 @@
 	)
 	(model "${REVK_3D}/MicroSD.step"
 		(offset
-			(xyz -25 -22 1)
+			(xyz -25 -19.5 1)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,0 +1,174 @@
+(footprint "KLJ-Speaker"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "76a2ad5d-9daf-45d4-abc1-74783813590b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KLJ-Speaker"
+		(at 0 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a760838-c8fd-470b-be50-718c6d06ce3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca2aca11-8994-4d5a-8c7d-b54175b6bfc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309191755_KELIKING-KLJ-01304T-08R07W_C18186315.pdf"
+		(at 0 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4e58f28-434e-4063-831f-29201b747ee5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1307f91-1e48-401c-b854-68b0b8f01d14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part #" "C18186315"
+		(at 0 13 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "03d11278-2312-49e0-88a5-ffce52747d78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -6.5 -6.5)
+		(end 6.5 6.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "41025faf-da58-47a0-b5b9-80cceb200940")
+	)
+	(fp_text user "-"
+		(at 6 6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7dd3a2db-b6d9-402e-8586-471293efdd99")
+		(effects
+			(font
+				(face "OCR-B")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "-" 0
+			(polygon
+				(pts
+					(xy 5.80314 5.975607) (xy 6.19515 5.975607) (xy 6.242524 5.962274) (xy 6.264893 5.917244) (xy 6.265248 5.90844)
+					(xy 6.242524 5.864465) (xy 6.19515 5.852264) (xy 5.80314 5.852264) (xy 5.753559 5.865606) (xy 5.733287 5.90844)
+					(xy 5.749077 5.956654) (xy 5.795916 5.975405)
+				)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -6 6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "88eb65c7-0cba-4a86-b119-b96365c4153b")
+		(effects
+			(font
+				(face "OCR-B")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "+" 0
+			(polygon
+				(pts
+					(xy -6.348045 5.877177) (xy -6.324739 5.922609) (xy -6.277947 5.933108) (xy -6.053976 5.933108)
+					(xy -6.053976 6.197868) (xy -6.040207 6.247449) (xy -5.998045 6.267721) (xy -5.95407 6.244452)
+					(xy -5.941869 6.197868) (xy -5.941869 5.933108) (xy -5.717898 5.933108) (xy -5.668775 5.919339)
+					(xy -5.648045 5.877177) (xy -5.671217 5.832135) (xy -5.717898 5.821001) (xy -5.941869 5.821001)
+					(xy -5.941869 5.557951) (xy -5.955211 5.508706) (xy -5.998045 5.487854) (xy -6.042314 5.510577)
+					(xy -6.053976 5.557951) (xy -6.053976 5.821001) (xy -6.277947 5.821001) (xy -6.327193 5.834343)
+				)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -6 -4)
+		(size 2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "fb127b77-04c4-4901-b096-4a56c1fafce7")
+	)
+	(pad "" smd roundrect
+		(at 6 -4)
+		(size 2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "124d94ef-3ac2-4f52-b30d-37f0a024cf25")
+	)
+	(pad "1" smd roundrect
+		(at -6 4)
+		(size 2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e51e0355-74b0-4453-aef3-b32ee2807a52")
+	)
+	(pad "2" smd roundrect
+		(at 6 4)
+		(size 2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0ffe5595-c9a3-471b-a51d-7fe012e6fa6d")
+	)
+)

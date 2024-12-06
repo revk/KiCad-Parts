@@ -102,7 +102,7 @@
 	)
 	(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal.step"
 		(offset
-			(xyz 0 1.5 0)
+			(xyz 0 1.2 0)
 		)
 		(scale
 			(xyz 1 1 1)
