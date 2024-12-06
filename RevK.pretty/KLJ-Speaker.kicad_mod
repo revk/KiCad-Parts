@@ -171,4 +171,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "0ffe5595-c9a3-471b-a51d-7fe012e6fa6d")
 	)
+	(model "${REVK_3D}/KLJ-SPeaker.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
