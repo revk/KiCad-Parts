@@ -19815,7 +19815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RevK:Square"
+		(property "Footprint" "RevK:PAD-2mm"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -19856,6 +19856,89 @@
 			)
 		)
 		(symbol "Square_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 1.27)
+				(name "P"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SquareSMD"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "P"
+			(at 6.35 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Square"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RevK:PAD-2mm"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SquareSMD_0_1"
+			(rectangle
+				(start 1.27 0.635)
+				(end 2.54 -0.635)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SquareSMD_1_1"
 			(pin passive line
 				(at 0 0 0)
 				(length 1.27)

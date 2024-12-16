@@ -114,6 +114,17 @@
 		(layer "F.Paste")
 		(uuid "ed66864f-f7de-4aa3-8721-ab6afc3f74a5")
 	)
+	(fp_circle
+		(center 0.785 0)
+		(end 1.335 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "29483ebb-49f1-48cd-a65e-1bf2fedd85ba")
+	)
 	(fp_rect
 		(start -1.675 -1.325)
 		(end 1.825 1.325)
@@ -189,7 +200,7 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 0.785 0 90)
-		(size 0.5 0.5)
+		(size 0.95 0.95)
 		(drill 0.75)
 		(layers "*.Mask")
 		(uuid "9b4e52f5-da36-4e55-8967-8ebbb0d50133")
