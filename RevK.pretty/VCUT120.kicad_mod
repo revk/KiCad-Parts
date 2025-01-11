@@ -1,10 +1,10 @@
-(footprint "VCUT70"
+(footprint "VCUT120"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -29 0.2 0)
+		(at -54 0.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -17,8 +17,8 @@
 			(justify left top)
 		)
 	)
-	(property "Value" "VCUT70"
-		(at -35 0.2 0)
+	(property "Value" "VCUT120"
+		(at -60 0.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "35386b07-7701-41bb-99dd-058c8b9d9af9")
@@ -34,7 +34,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "26132baa-bad2-482b-98c5-49814adc55d0")
+		(uuid "4b0f3469-9197-4ac8-9343-ee7109f2ef5b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7bebdac0-39c8-466f-8a34-d65a26baf53e")
+		(uuid "da636f31-de71-438c-b1e5-3e3530b0c122")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eecb0091-a419-4b3a-8b9d-16b93882fabd")
+		(uuid "4ee186cf-167d-4687-9f7f-01485982a374")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,10 +66,10 @@
 			)
 		)
 	)
-	(attr exclude_from_bom allow_soldermask_bridges)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 	(fp_line
-		(start -35 0)
-		(end 35 0)
+		(start -60 0)
+		(end 60 0)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -78,8 +78,8 @@
 		(uuid "5c57398c-5b9f-4f84-8972-86d413ab9d79")
 	)
 	(fp_line
-		(start -35 0)
-		(end 35 0)
+		(start -60 0)
+		(end 60 0)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -88,8 +88,8 @@
 		(uuid "0c59d89e-8ddc-43d7-99b3-8b16d25cb336")
 	)
 	(fp_line
-		(start -35 0)
-		(end 35 0)
+		(start -60 0)
+		(end 60 0)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -138,8 +138,8 @@
 		(uuid "3f6cd50e-434a-40cb-a438-60aca1d67bc0")
 	)
 	(fp_line
-		(start -35 0)
-		(end 35 0)
+		(start -60 0)
+		(end 60 0)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -148,7 +148,7 @@
 		(uuid "0e82fe3c-924e-499e-b0f4-b7fdaefc97bb")
 	)
 	(fp_text user "V-Cut"
-		(at -32.6 0.9 0)
+		(at -60 0.9 0)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "56367458-ec71-4b5e-a393-dce52636f7c1")
@@ -157,10 +157,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify left)
 		)
 	)
 	(fp_text user "V-Cut"
-		(at 32.6 -0.9 0)
+		(at 60 -0.9 0)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "7f1db9a9-fb8a-4395-9b69-a544edf8b859")
@@ -169,10 +170,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify right)
 		)
 	)
 	(fp_text user "V-Cut"
-		(at -32.6 -0.9 0)
+		(at -60 -0.9 0)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "80ee72e6-bc4b-4ee3-a5df-95d855862667")
@@ -181,10 +183,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify left)
 		)
 	)
 	(fp_text user "V-Cut"
-		(at 32.6 0.9 0)
+		(at 60 0.9 0)
 		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "c8b78b18-cf11-4b9f-a7c2-46c5999893f4")
@@ -193,6 +196,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify right)
 		)
 	)
 	(zone
@@ -219,7 +223,7 @@
 		)
 		(polygon
 			(pts
-				(xy 35 0.2) (xy 35 -0.2) (xy -35 -0.2) (xy -35 0.2)
+				(xy 60 0.2) (xy 60 -0.2) (xy -60 -0.2) (xy -60 0.2)
 			)
 		)
 	)
@@ -247,7 +251,7 @@
 		)
 		(polygon
 			(pts
-				(xy 35 0.2) (xy 35 -0.2) (xy -35 -0.2) (xy -35 0.2)
+				(xy 60 0.2) (xy 60 -0.2) (xy -60 -0.2) (xy -60 0.2)
 			)
 		)
 	)

@@ -70,6 +70,7 @@
 	(property "JLCPCB Position Offset" "0,3.075"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "d6b98512-365e-4662-a47f-c58fb10e1bb7")
 		(effects
 			(font
