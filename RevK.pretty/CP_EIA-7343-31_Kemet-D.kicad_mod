@@ -1,7 +1,7 @@
 (footprint "CP_EIA-7343-31_Kemet-D"
-	(version 20240108)
+	(version 20241129)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor tantalum")
@@ -28,15 +28,15 @@
 			)
 		)
 	)
-	(property "Footprint" "CP_EIA-7343-31_Kemet-D"
+	(property "Footprint" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "744442b2-8315-48fe-b9d3-721065abace0")
+		(uuid "ce19cc66-1cfd-4ed6-b978-6b9c87aadf22")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -96,8 +98,8 @@
 		(uuid "9ad488a5-9407-47ce-bd38-8971c956fd62")
 	)
 	(fp_line
-		(start -4 -2.4)
-		(end 4 -2.4)
+		(start -4 -2.2)
+		(end 4 -2.2)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -106,8 +108,8 @@
 		(uuid "84e7532b-4f0a-453d-aad1-7d678f422876")
 	)
 	(fp_line
-		(start -4 2.4)
-		(end -4 -2.4)
+		(start -4 2.2)
+		(end -4 -2.2)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -116,8 +118,8 @@
 		(uuid "771dee7e-69af-4a79-92e2-3641da4349bb")
 	)
 	(fp_line
-		(start 4 -2.4)
-		(end 4 2.4)
+		(start 4 -2.2)
+		(end 4 2.2)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -126,8 +128,8 @@
 		(uuid "57ae8274-c5da-4ca8-a6d5-d24c977dd569")
 	)
 	(fp_line
-		(start 4 2.4)
-		(end -4 2.4)
+		(start 4 2.2)
+		(end -4 2.2)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -199,17 +201,18 @@
 	(pad "1" smd roundrect
 		(at -3.1125 0)
 		(size 2.075 2.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.120482)
 		(uuid "94e2fb35-427b-4ec0-a5fb-a526023dbd4e")
 	)
 	(pad "2" smd roundrect
 		(at 3.1125 0)
 		(size 2.075 2.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.120482)
 		(uuid "1fe6417c-e0d0-4e07-b660-c26ed7ae4609")
 	)
+	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7343-31_Kemet-D.wrl"
 		(offset
 			(xyz 0 0 0)

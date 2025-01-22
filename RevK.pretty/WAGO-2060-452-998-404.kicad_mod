@@ -1,7 +1,7 @@
 (footprint "WAGO-2060-452-998-404"
-	(version 20240108)
+	(version 20241129)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 9.9 0 -90)
@@ -29,14 +29,13 @@
 		)
 	)
 	(property "Footprint" ""
-		(at -1.1 0 -90)
-		(unlocked yes)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eda89b97-e41d-45c9-92bc-4ed81384152c")
+		(uuid "94b34cb7-350c-4991-8fc0-00f82a4f8d1a")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -75,25 +74,25 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a00a14d0-f3b0-4fcf-9133-ab36e16a0fb3")
 	)
 	(fp_rect
-		(start -7.15 -3.95)
-		(end 5.55 3.95)
+		(start -7.15 -4.04)
+		(end 5.55 4.05)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "1984d145-1a35-41cf-adce-240818b3bd5e")
 	)
 	(pad "1" smd roundrect
 		(at -4.65 -2 270)
 		(size 2 6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "24ebe12c-73e7-4cf0-81cc-eea40d770ebc")
@@ -101,7 +100,7 @@
 	(pad "1" smd roundrect
 		(at 4.6 -2 270)
 		(size 2 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "d7fa27c3-af85-4370-970b-ea8056287c07")
@@ -109,7 +108,7 @@
 	(pad "2" smd roundrect
 		(at -4.65 2 270)
 		(size 2 6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "b3d124df-b55e-4d00-8de2-e515e07fdad1")
@@ -117,11 +116,12 @@
 	(pad "2" smd roundrect
 		(at 4.6 2 270)
 		(size 2 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "f1fac99a-3d7d-4fdf-9aa8-656e2643cd6c")
 	)
+	(embedded_fonts no)
 	(model "${REVK_3D}/2060-452_998-404.stp"
 		(offset
 			(xyz -7.15 -3.95 0)

@@ -1,7 +1,7 @@
 (footprint "Pad_1206_0805_Bridged"
-	(version 20240108)
+	(version 20241129)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips")
 	(tags "net tie solder jumper bridged")
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3bcd0b74-849e-4986-85b6-5ffba892f5f5")
+		(uuid "36e8307c-658b-4da9-98e5-4ec373599c1e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,19 +64,31 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 	(net_tie_pad_groups "1, 1, 2, 2")
 	(fp_poly
 		(pts
-			(xy -0.5 -0.4) (xy 0.5 -0.4) (xy 0.5 0.4) (xy -0.5 0.4)
+			(xy -1.1 -0.4) (xy 1.1 -0.4) (xy 1.1 0.4) (xy -1.1 0.4)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "e4aa421d-9439-4e22-96f5-1a34e510e76c")
+	)
+	(fp_poly
+		(pts
+			(xy 0.2 0.83) (xy -0.2 0.83) (xy -0.2 -0.85) (xy 0.2 -0.85)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "0f615b6d-5660-430e-bbb9-d7344440db39")
 	)
 	(fp_line
 		(start -0.727064 -0.92)
@@ -98,38 +110,12 @@
 		(layer "F.SilkS")
 		(uuid "27adf374-12d5-4a17-990e-883a465b4fab")
 	)
-	(fp_poly
-		(pts
-			(xy 0.2 0.83) (xy -0.2 0.83) (xy -0.2 -0.85) (xy 0.2 -0.85)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "0f615b6d-5660-430e-bbb9-d7344440db39")
-	)
 	(pad "1" smd roundrect
 		(at -1.4625 0)
 		(size 1.125 1.75)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.22)
 		(uuid "e31922ef-cc6f-47cc-8e3f-b6387f3bdf84")
-	)
-	(pad "1" smd roundrect
-		(at -0.9125 0)
-		(size 1.025 1.4)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "c34375bb-38ab-4ddf-8b54-5eeaaace4f89")
-	)
-	(pad "2" smd roundrect
-		(at 0.9125 0)
-		(size 1.025 1.4)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "b48e3943-f0fc-4bb6-9269-b5cd925899bd")
 	)
 	(pad "2" smd roundrect
 		(at 1.4625 0)
@@ -156,6 +142,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -166,4 +156,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )
