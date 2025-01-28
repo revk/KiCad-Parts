@@ -1,4 +1,4 @@
-(footprint "SO-4_4.4x4.3mm_P2.54mm"
+(footprint "SO-4_4.4x4.3mm_P2.54mm-180"
 	(version 20241129)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SO-4_4.4x4.3mm_P2.54mm"
+	(property "Value" "SO-4_4.4x4.3mm_P2.54mm-180"
 		(at 0 7 0)
 		(layer "F.Fab")
 		(uuid "390ef2c4-cec1-4e0a-94f8-f4439182a0a0")
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7c056abe-76d9-4388-9e76-2a93586a90de")
+		(uuid "71a8765f-bc74-499c-b74a-e590e9e9ad08")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,6 +58,18 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rotation Offset" "180"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1902f0c5-64bc-4000-be4a-ff3c4115544a")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)

@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "84d079b6-76c5-4fa4-8dbb-e2ceccda89dd")
+		(uuid "ed8360f2-6299-484c-9ca0-a43c095c5339")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -72,7 +72,7 @@
 			(xy -3.5 -0.5) (xy -2.5 -1.5) (xy 3 -1.5) (xy 3 1.5) (xy -2.5 1.5) (xy -3.5 0.5)
 		)
 		(stroke
-			(width 0.5)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)

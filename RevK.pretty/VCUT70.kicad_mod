@@ -1,7 +1,7 @@
 (footprint "VCUT70"
-	(version 20240108)
+	(version 20241129)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -29 0.2 0)
@@ -34,7 +34,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "26132baa-bad2-482b-98c5-49814adc55d0")
+		(uuid "78f42ee4-07c9-4dc0-9851-44f2ee333e66")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,17 +66,7 @@
 			)
 		)
 	)
-	(attr exclude_from_bom allow_soldermask_bridges)
-	(fp_line
-		(start -35 0)
-		(end 35 0)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "B.Mask")
-		(uuid "5c57398c-5b9f-4f84-8972-86d413ab9d79")
-	)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 	(fp_line
 		(start -35 0)
 		(end 35 0)
@@ -86,6 +76,16 @@
 		)
 		(layer "F.Mask")
 		(uuid "0c59d89e-8ddc-43d7-99b3-8b16d25cb336")
+	)
+	(fp_line
+		(start -35 0)
+		(end 35 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.Mask")
+		(uuid "5c57398c-5b9f-4f84-8972-86d413ab9d79")
 	)
 	(fp_line
 		(start -35 0)
@@ -213,6 +213,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -241,6 +245,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -251,4 +259,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

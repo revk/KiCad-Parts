@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2a645580-0821-450a-b0d4-131f29c905ac")
+		(uuid "92839099-963b-4e70-b7d5-5002a4e385d1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -67,7 +67,7 @@
 			)
 		)
 	)
-	(property "JLCPCB Position Offset" "0,3.075"
+	(property "Position Offset" "0,0.15"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)

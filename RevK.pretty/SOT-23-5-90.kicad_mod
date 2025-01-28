@@ -1,4 +1,4 @@
-(footprint "SOT-23-5"
+(footprint "SOT-23-5-90"
 	(version 20241129)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "SOT-23-5"
+	(property "Value" "SOT-23-5-90"
 		(at 0 2.4 0)
 		(layer "F.Fab")
 		(uuid "32778274-6ddb-46de-a4c4-f5da4bddb081")
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "834f8884-8728-41e5-822b-934020d39b4c")
+		(uuid "c47aef00-1b1b-47e5-8e6c-c9b7a9002112")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,6 +60,18 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rotation Offset" "90"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "10a9c9c9-873d-4773-b02c-055e7ce00a2d")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)

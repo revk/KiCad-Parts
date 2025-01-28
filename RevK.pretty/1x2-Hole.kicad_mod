@@ -1,7 +1,7 @@
 (footprint "1x2-Hole"
-	(version 20240108)
+	(version 20241129)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
@@ -30,13 +30,12 @@
 	)
 	(property "Footprint" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7b9a1bbc-954e-46dc-9f00-d1e79715c3b2")
+		(uuid "639d15d8-d544-4bfd-a6fa-f3242d28316f")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -68,7 +67,7 @@
 		)
 	)
 	(zone_connect 2)
-	(attr through_hole)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
 	(pad "1" thru_hole oval
 		(at 0 0)
 		(size 1.4 2.4)
@@ -79,4 +78,5 @@
 		(clearance 0.2)
 		(uuid "5f5ae19d-7930-407d-bcf3-bb113826bab9")
 	)
+	(embedded_fonts no)
 )

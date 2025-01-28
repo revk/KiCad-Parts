@@ -347,14 +347,6 @@
 				(hide yes)
 			)
 		)
-		(property "Rotation Offset" "180"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_fp_filters" "SOT?363*"
 			(at 0 0 0)
 			(effects
@@ -1651,7 +1643,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 5.08 2.286)
+					(xy 0 2.286) (xy 0 0.889)
 				)
 				(stroke
 					(width 0)
@@ -1663,7 +1655,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.286) (xy 0 0.889)
+					(xy 0 2.286) (xy 5.08 2.286)
 				)
 				(stroke
 					(width 0)
@@ -4834,7 +4826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESP32S3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8443,7 +8435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rotation Offset" "-90"
+		(property "MPN" "C132159"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9184,10 +9176,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.794 0) (xy 3.81 0)
-				)
+			(circle
+				(center 2.794 0)
+				(radius 0.127)
 				(stroke
 					(width 0)
 					(type default)
@@ -9196,9 +9187,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.794 0)
-				(radius 0.127)
+			(polyline
+				(pts
+					(xy 2.794 0) (xy 3.81 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -9288,10 +9280,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 3.81 -2.54) (xy 3.81 2.54)
-				)
+			(circle
+				(center 3.81 -2.54)
+				(radius 0.127)
 				(stroke
 					(width 0)
 					(type default)
@@ -9300,9 +9291,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 3.81 -2.54)
-				(radius 0.127)
+			(polyline
+				(pts
+					(xy 3.81 -2.54) (xy 3.81 2.54)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -9805,10 +9797,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 3.81 3.81) (xy 3.81 8.89)
-				)
+			(circle
+				(center 3.81 3.81)
+				(radius 0.127)
 				(stroke
 					(width 0)
 					(type default)
@@ -9817,9 +9808,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 3.81 3.81)
-				(radius 0.127)
+			(polyline
+				(pts
+					(xy 3.81 3.81) (xy 3.81 8.89)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -10377,7 +10369,7 @@
 			)
 			(polyline
 				(pts
-					(xy -8.763 0.381) (xy -8.763 0.889)
+					(xy -8.763 0.381) (xy -9.652 1.27)
 				)
 				(stroke
 					(width 0)
@@ -10389,7 +10381,7 @@
 			)
 			(polyline
 				(pts
-					(xy -8.763 0.381) (xy -9.652 1.27)
+					(xy -8.763 0.381) (xy -8.763 0.889)
 				)
 				(stroke
 					(width 0)
@@ -10819,6 +10811,18 @@
 			)
 			(polyline
 				(pts
+					(xy -8.763 0.381) (xy -8.763 0.889)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -8.763 0.381) (xy -9.652 1.27)
 				)
 				(stroke
@@ -10843,19 +10847,7 @@
 			)
 			(polyline
 				(pts
-					(xy -8.763 0.381) (xy -8.763 0.889)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.636 -0.635) (xy -9.525 0.254)
+					(xy -8.636 -0.635) (xy -8.636 -0.127)
 				)
 				(stroke
 					(width 0)
@@ -10879,7 +10871,7 @@
 			)
 			(polyline
 				(pts
-					(xy -8.636 -0.635) (xy -8.636 -0.127)
+					(xy -8.636 -0.635) (xy -9.525 0.254)
 				)
 				(stroke
 					(width 0)
@@ -11183,15 +11175,6 @@
 			)
 		)
 		(property "MPN" "C2924635"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rotation Offset" "-90"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12763,15 +12746,6 @@
 				(hide yes)
 			)
 		)
-		(property "Rotation Offset" "180"
-			(at 30.48 -14.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LMR16006XDDCR_0_0"
 			(rectangle
 				(start 2.54 1.27)
@@ -12984,12 +12958,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C2682619"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "pcm tdm i2s left-justified amplifier audio dac"
@@ -13413,7 +13388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Regulator and associated components."
 			(at 0 0 0)
 			(effects
 				(font
@@ -13423,20 +13398,12 @@
 			)
 		)
 		(property "MPN" "C2684786"
-			(at 0 -26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rotation Offset" "180"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "MD89420-RegBlock_1_1"
@@ -20507,6 +20474,18 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy -1.905 4.445) (xy -3.175 3.175) (xy -1.905 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center -1.905 3.175)
 				(radius 0.381)
@@ -20606,10 +20585,10 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 5.08 180)
+				(at 7.62 1.27 180)
 				(length 2.54)
 				(hide yes)
-				(name "VBUS"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20635,6 +20614,25 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 1.27 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20678,25 +20676,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 7.62 -5.08 180)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
@@ -20716,7 +20695,7 @@
 			)
 		)
 		(property "Value" "TC2030-USB-NL-DS"
-			(at 0 8.89 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20882,6 +20861,18 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy -1.905 4.445) (xy -3.175 3.175) (xy -1.905 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center -1.905 3.175)
 				(radius 0.381)
@@ -21000,10 +20991,10 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 5.08 180)
+				(at 7.62 1.27 180)
 				(length 2.54)
 				(hide yes)
-				(name "VBUS"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21019,10 +21010,10 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 5.08 180)
+				(at 7.62 1.27 180)
 				(length 2.54)
 				(hide yes)
-				(name "VBUS"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21067,6 +21058,44 @@
 					)
 				)
 				(number "3B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 1.27 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 1.27 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21148,44 +21177,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 7.62 -5.08 180)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -5.08 180)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
@@ -21241,15 +21232,6 @@
 			)
 		)
 		(property "MPN" "C393941"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Position Offset" "0,0.15"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21631,15 +21613,6 @@
 				(hide yes)
 			)
 		)
-		(property "Rotation Offset" "180"
-			(at -8.89 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "TP4054_1_1"
 			(rectangle
 				(start -6.985 4.445)
@@ -21989,6 +21962,17 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 0 -5.842)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0 -5.842) (xy 0 4.318)
@@ -21999,17 +21983,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(circle
-				(center 0 -5.842)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(rectangle
@@ -22377,7 +22350,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB-C-Socket-V"
+		(property "Value" "USB-C-Socket-H"
 			(at 0.635 12.7 0)
 			(effects
 				(font
@@ -22413,15 +22386,6 @@
 			)
 		)
 		(property "MPN" "C709357"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Position Offset" "0,0.7"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22492,7 +22456,7 @@
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(arc
@@ -22504,7 +22468,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(arc
@@ -22540,7 +22504,7 @@
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(arc
@@ -22552,7 +22516,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
@@ -23089,7 +23053,7 @@
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(arc
@@ -23101,7 +23065,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(arc
@@ -23137,7 +23101,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(arc
@@ -23149,7 +23113,7 @@
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(polyline
@@ -23211,17 +23175,6 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 0 -5.842)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 -5.842) (xy 0 4.318)
@@ -23232,6 +23185,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(circle
+				(center 0 -5.842)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(rectangle
@@ -23941,7 +23905,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 1.524) (xy 1.397 1.524)
+					(xy 0.635 1.524) (xy 3.175 4.064)
 				)
 				(stroke
 					(width 0)
@@ -23953,7 +23917,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 1.524) (xy 3.175 4.064)
+					(xy 0.635 1.524) (xy 1.397 1.524)
 				)
 				(stroke
 					(width 0)
@@ -23977,7 +23941,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 0) (xy 0.635 0.762)
+					(xy 0.635 0) (xy 1.397 0)
 				)
 				(stroke
 					(width 0)
@@ -23989,7 +23953,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 0) (xy 1.397 0)
+					(xy 0.635 0) (xy 0.635 0.762)
 				)
 				(stroke
 					(width 0)
@@ -24158,18 +24122,6 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 1.524) (xy 6.985 4.064)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 4.445 1.524) (xy 4.445 2.286)
 				)
 				(stroke
@@ -24182,7 +24134,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 1.524) (xy 5.207 1.524)
+					(xy 4.445 1.524) (xy 6.985 4.064)
 				)
 				(stroke
 					(width 0)
@@ -24194,7 +24146,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 0) (xy 5.207 0)
+					(xy 4.445 1.524) (xy 5.207 1.524)
 				)
 				(stroke
 					(width 0)
@@ -24219,6 +24171,18 @@
 			(polyline
 				(pts
 					(xy 4.445 0) (xy 4.445 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 0) (xy 5.207 0)
 				)
 				(stroke
 					(width 0)
@@ -24361,15 +24325,6 @@
 				(hide yes)
 			)
 		)
-		(property "Rotation Offset" "90"
-			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "VEML6040_0_1"
 			(rectangle
 				(start -4.445 5.08)
@@ -24395,7 +24350,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 2.159) (xy 0.635 2.921)
+					(xy 0.635 2.159) (xy 3.175 4.699)
 				)
 				(stroke
 					(width 0)
@@ -24407,7 +24362,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 2.159) (xy 3.175 4.699)
+					(xy 0.635 2.159) (xy 0.635 2.921)
 				)
 				(stroke
 					(width 0)

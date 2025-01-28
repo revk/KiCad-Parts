@@ -1,7 +1,7 @@
 (footprint "1.25T-2PWT (Molex 532610271)"
-	(version 20240108)
+	(version 20241129)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "J1"
 		(at 0 -1.75 0)
@@ -26,11 +26,11 @@
 			)
 		)
 	)
-	(property "Footprint" "Watchy:1.25T-2PWT (Molex 532610271)"
-		(at 0 -1.75 0)
+	(property "Footprint" ""
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f39d1bc6-dfa7-45be-a17d-bb325e3c34df")
+		(uuid "183a5f35-989e-4615-b388-3af7e66dfd42")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 			)
 		)
 	)
-	(property "LCSC Part #" "C177225"
+	(property "MPN" "C177225"
 		(at 0 -1.75 -90)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -75,11 +75,23 @@
 			)
 		)
 	)
+	(property "Position Offset" "0,0.25"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "122c0dd3-1e21-4b26-8a43-993caf8f70db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
 	(pad "" smd rect
 		(at -3.157 -1.7)
 		(size 2.1 2.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7a637a42-3f9d-4956-a4ac-fbca0fc7f202")
 	)
 	(pad "" np_thru_hole oval
@@ -93,21 +105,22 @@
 	(pad "" smd rect
 		(at 3.175 -1.7)
 		(size 2.1 2.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "27bd76c4-c6e3-499c-a7fc-0784c1d89c6e")
 	)
 	(pad "1" smd rect
 		(at -0.625 1.15)
 		(size 0.5 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "66897c25-0e20-4278-9c38-0f433c985555")
 	)
 	(pad "2" smd rect
 		(at 0.625 1.15)
 		(size 0.5 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ec93b0f9-00b3-4b3e-bcd7-4d38f51172c8")
 	)
+	(embedded_fonts no)
 	(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal.step"
 		(offset
 			(xyz 0 1.2 0)

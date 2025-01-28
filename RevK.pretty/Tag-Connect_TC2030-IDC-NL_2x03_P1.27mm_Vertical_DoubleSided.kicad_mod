@@ -1,7 +1,7 @@
 (footprint "Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical_DoubleSided"
-	(version 20240108)
+	(version 20241129)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf")
 	(tags "tag connect programming header pogo pins")
@@ -30,10 +30,9 @@
 	)
 	(property "Footprint" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cb7a42dc-7598-41fc-9b81-cc6f05c6fdbe")
+		(uuid "20460dbd-0517-473f-9820-8570386508cc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -68,6 +67,30 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -3.3 -0.5) (xy -2.3 -1.5) (xy 3.2 -1.5) (xy 3.2 1.5) (xy -2.3 1.5) (xy -3.3 0.5)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "28ae7ef5-37e9-49a5-9422-2424b5472966")
+	)
+	(fp_poly
+		(pts
+			(xy -3.3 -0.5) (xy -2.3 -1.5) (xy 3.2 -1.5) (xy 3.2 1.5) (xy -2.3 1.5) (xy -3.3 0.5)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "9975e3ca-1e96-4860-901c-e29442025809")
+	)
 	(fp_line
 		(start -3.5 -2)
 		(end 3.5 -2)
@@ -383,6 +406,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -393,4 +420,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

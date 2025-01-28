@@ -1,4 +1,4 @@
-(footprint "SOT-363_SC-70-6"
+(footprint "SOT-363_SC-70-6-90"
 	(version 20241129)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cdc0207a-e983-447c-9875-82f9bb9a7259")
+		(uuid "131b4846-39ee-47c8-b7ca-ebe9bfac316d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,6 +62,18 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rotation Offset" "90"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2062d96f-0a9c-4765-ac1c-676f7e69ca61")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)

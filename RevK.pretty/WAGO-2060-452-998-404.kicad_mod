@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "94b34cb7-350c-4991-8fc0-00f82a4f8d1a")
+		(uuid "46f8e06d-de56-4e48-8d27-5d199b5cc466")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,6 +59,18 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "1a454913-3f37-4902-bd6e-d59159bd7054")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Position Offset" "-0.5,0"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1afe41db-f004-4e7f-a99a-ed75255dc36b")
 		(effects
 			(font
 				(size 1 1)
