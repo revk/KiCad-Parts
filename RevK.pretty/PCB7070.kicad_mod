@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e24b2b1a-d69f-4b9d-a5e2-e4be28eb3dc9")
+		(uuid "b6e6fcb5-1830-48eb-8db4-06c71271a7c7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -410,6 +410,28 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "d6524e26-198c-4e9f-895d-b5c7e50e7172")
+	)
+	(fp_rect
+		(start -13 -34)
+		(end -6.5 -31)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Fab")
+		(uuid "d77dbeef-670e-4e33-af2e-b743536a5c1a")
+	)
+	(fp_rect
+		(start -20 -34)
+		(end -13.5 -31)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "1399b9c1-da07-4c41-9f8b-e5267f67eeb2")
 	)
 	(fp_text user "70x70mm panel"
 		(at 0 32.5 0)
