@@ -1,7 +1,7 @@
 (footprint "SMD-4P,4x5mm"
-	(version 20240108)
+	(version 20241129)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.05 -14.5 0)
@@ -29,14 +29,13 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0.05 -14 0)
-		(unlocked yes)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "382ff360-1cad-446c-ba20-a2a39953ad87")
+		(uuid "046aaf72-771a-48ea-a371-35c91c902aab")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -75,7 +74,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "36019407-f92a-4687-97eb-462030df489c")
 	)
@@ -86,14 +85,14 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "26777bd8-fb77-418d-8a84-45f8f39f40e9")
 	)
 	(pad "1" smd roundrect
 		(at -2.9 -1.27 90)
 		(size 0.7 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "53933c1c-7cae-47b3-867f-c4f3c2fd50b5")
@@ -101,7 +100,7 @@
 	(pad "2" smd roundrect
 		(at -2.9 1.27 90)
 		(size 0.7 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "a4aa66fe-5b89-41aa-9c9b-4d3998c56929")
@@ -109,7 +108,7 @@
 	(pad "3" smd roundrect
 		(at 2.9 1.27 90)
 		(size 0.7 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "91fb232f-3dec-48ae-9607-89b160e462d5")
@@ -117,20 +116,21 @@
 	(pad "4" smd roundrect
 		(at 2.9 -1.27 90)
 		(size 0.7 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "3dcaed45-8460-432b-b943-93d7361f539b")
 	)
-	(model "${REVK_3D}/SMD-4P-4x5.wrl"
+	(embedded_fonts no)
+	(model "${REVK_3D}/SMD-4P-4x5.step"
 		(offset
-			(xyz 0 0 1)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz -0 -0 -90)
 		)
 	)
 )
