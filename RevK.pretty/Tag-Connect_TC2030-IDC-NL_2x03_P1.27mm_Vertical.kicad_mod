@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e87c4b10-c317-4911-9987-998eee5a9c00")
+		(uuid "bc88ddc0-b4a7-4ae6-a49e-bb344c510539")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -277,7 +277,7 @@
 	)
 	(pad "1" connect circle
 		(at -1.27 0.635)
-		(size 0.7874 0.7874)
+		(size 1 1)
 		(layers "F.Cu" "F.Mask")
 		(teardrops
 			(best_length_ratio 0.5)
@@ -294,7 +294,7 @@
 	)
 	(pad "2" connect circle
 		(at -1.27 -0.635)
-		(size 0.7874 0.7874)
+		(size 1 1)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
 		(teardrops
@@ -312,7 +312,7 @@
 	)
 	(pad "3" connect circle
 		(at 0 0.635)
-		(size 0.7874 0.7874)
+		(size 1 1)
 		(layers "F.Cu" "F.Mask")
 		(teardrops
 			(best_length_ratio 0.5)
@@ -329,7 +329,7 @@
 	)
 	(pad "4" connect circle
 		(at 0 -0.635)
-		(size 0.7874 0.7874)
+		(size 1 1)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
 		(teardrops
@@ -347,7 +347,7 @@
 	)
 	(pad "5" connect circle
 		(at 1.27 0.635)
-		(size 0.7874 0.7874)
+		(size 1 1)
 		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 0)
 		(teardrops
@@ -365,7 +365,7 @@
 	)
 	(pad "6" connect circle
 		(at 1.27 -0.635)
-		(size 0.7874 0.7874)
+		(size 1 1)
 		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 0)
 		(teardrops
