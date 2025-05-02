@@ -1,0 +1,359 @@
+(footprint "SMD1010-Side2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+	(tags "LED RGB NeoPixel")
+	(property "Reference" "REF**"
+		(at 0 -1.45 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "29976fa0-918e-48c1-ba81-319324267df7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD1010-Side2"
+		(at 0 2.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11f34c85-b80f-46bd-b71d-beeef7ef25a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10bd6b2d-6093-4644-8559-63c5a2208247")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f71324d-75a2-4e7b-ba6d-da19c465cccb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.08 -0.73)
+		(end 0.32 -0.73)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4febbdf5-68db-41b1-9055-d51c45ace5cc")
+	)
+	(fp_line
+		(start 0.12 -0.93)
+		(end 0.12 -0.53)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97e97fbf-9873-40d2-a937-b1eff8aaee83")
+	)
+	(fp_circle
+		(center -0.8 -0.425)
+		(end -0.675 -0.425)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "517b0794-dc91-4a37-b965-fbf2c02a90d6")
+	)
+	(fp_poly
+		(pts
+			(xy 0.023248 0.214442) (xy 0.023248 0.464442) (xy -0.176752 0.337718)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e18ca3b7-448d-4be1-8b45-dc84a40668c2")
+	)
+	(fp_line
+		(start -0.6 0.425)
+		(end -0.25 0.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7144d39d-6afa-420b-9459-3c89dcfe9048")
+	)
+	(fp_line
+		(start 0.25 -0.425)
+		(end 0.6 -0.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "916113cd-a616-42c1-bc46-de8fe02b278a")
+	)
+	(fp_line
+		(start 0.425 -0.6)
+		(end 0.425 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ad3a03ba-4e3c-4e08-908a-04b2123bed4f")
+	)
+	(fp_line
+		(start -0.6 0.425)
+		(end -0.25 0.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "0d5fe492-5975-48ca-ad82-5e590293011d")
+	)
+	(fp_line
+		(start 0.25 -0.425)
+		(end 0.6 -0.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "838a8f43-0a8a-47e5-9f06-b132dc606d9f")
+	)
+	(fp_line
+		(start 0.425 -0.6)
+		(end 0.425 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "3be3864e-e7f7-4339-accd-38d29e885a8a")
+	)
+	(fp_line
+		(start -0.55 -0.55)
+		(end -0.55 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e698f4d4-65a5-4d0f-a8ed-5745b8f0d483")
+	)
+	(fp_line
+		(start -0.55 0.55)
+		(end 0.55 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d2813ac-2cb3-426c-9318-d6eb3fef0d3b")
+	)
+	(fp_line
+		(start 0.55 -0.55)
+		(end -0.55 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ed360c1-b7ac-408f-ae9c-5f158b031e9b")
+	)
+	(fp_line
+		(start 0.55 0.55)
+		(end 0.55 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62f632c6-6884-46e9-ac67-40d4696553e0")
+	)
+	(fp_line
+		(start -0.5 -0.5)
+		(end -0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0c389f3-e39a-48d8-966d-313f4224879e")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end -0.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "499f5357-ccb3-42ef-b94f-02318a1ecbce")
+	)
+	(fp_line
+		(start -0.5 0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4c74574-4660-4fc6-b56a-3f019923dc9c")
+	)
+	(fp_line
+		(start 0.5 -0.5)
+		(end -0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2bf95a5-2ab1-44b7-8a52-0c672195a1d4")
+	)
+	(fp_line
+		(start 0.5 0.5)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90c3ef5b-455e-4d2f-aa38-e0f89bf4bf0c")
+	)
+	(fp_text user "DO"
+		(at -0.425 -0.425 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "193ba393-5196-4068-a5fe-74cf94732df0")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "DI"
+		(at 0.425 0.425 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "392ad231-b8d8-45dd-8631-d8e8e3fc9843")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "DI"
+		(at 0.425 0.425 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "1e9e20c5-f49f-4e3e-8f71-dd745be20e4b")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "DO"
+		(at -0.425 -0.425 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "4b69eb60-77a2-4eb8-a890-29f3c07788e2")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c5756b5f-7ccc-4d42-872b-98775daca562")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.03)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.425 -0.425)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.06)
+		(chamfer top_left)
+		(uuid "8355be5f-b3eb-4505-bb06-54c10cf5d912")
+	)
+	(pad "2" smd roundrect
+		(at 0.425 -0.425)
+		(size 0.48 0.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.06)
+		(chamfer top_right)
+		(uuid "848233f6-206d-4dfa-bd39-5d22792f7bff")
+	)
+	(pad "3" smd roundrect
+		(at -0.425 0.425)
+		(size 0.48 0.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.06)
+		(chamfer bottom_left)
+		(uuid "303fa036-5e50-4d6d-bb86-5cdfd4b88a9f")
+	)
+	(pad "4" smd roundrect
+		(at 0.425 0.425 180)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.06)
+		(chamfer top_left)
+		(uuid "828582b7-968d-4631-8ca0-98e3193fe809")
+	)
+	(embedded_fonts no)
+	(model "${REVK_3D}/SMD1010.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
