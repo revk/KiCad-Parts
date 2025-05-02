@@ -6,7 +6,7 @@
 	(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 	(tags "Through hole socket strip THT 1x08 2.54mm single row")
 	(property "Reference" "REF**"
-		(at 0 -2.77 0)
+		(at -26.6 -11.66 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "19ebda69-77dc-44b9-aaf4-7a5c8cc2bf61")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "LCD2"
-		(at 0 20.55 0)
+		(at -26.6 11.66 0)
 		(layer "F.Fab")
 		(uuid "7b02a37e-32fe-43a6-aa4c-6f1c89ac5391")
 		(effects
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -26.6 -8.89 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -26.6 -8.89 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -56,8 +56,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start 45.6 -1.11)
-		(end 51.6 18.89)
+		(start 19 -10)
+		(end 25 10)
 		(stroke
 			(width 0.05)
 			(type dot)
@@ -67,8 +67,8 @@
 		(uuid "da802b8b-6511-4590-815a-1de882a85656")
 	)
 	(fp_line
-		(start -2.4 -6.11)
-		(end -2.4 23.89)
+		(start -29 -15)
+		(end -29 15)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -77,8 +77,8 @@
 		(uuid "cb9b9d17-424c-41de-a3cf-5637cbb97f1f")
 	)
 	(fp_line
-		(start 0.1 26.39)
-		(end 53.1 26.39)
+		(start -26.5 17.5)
+		(end 26.5 17.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -87,8 +87,8 @@
 		(uuid "c6bfbbe1-676d-4cdf-a628-f99055497392")
 	)
 	(fp_line
-		(start 53.1 -8.61)
-		(end 0.1 -8.61)
+		(start 26.5 -17.5)
+		(end -26.5 -17.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -97,8 +97,8 @@
 		(uuid "4f064d99-ee85-4d9b-abbd-9f68c1f5b2ad")
 	)
 	(fp_line
-		(start 55.6 23.89)
-		(end 55.6 -6.11)
+		(start 29 15)
+		(end 29 -15)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -107,9 +107,9 @@
 		(uuid "b6378813-9a8f-4e4a-8aa6-e57857f8688d")
 	)
 	(fp_arc
-		(start -2.4 -6.11)
-		(mid -1.667767 -7.877767)
-		(end 0.1 -8.61)
+		(start -29 -15)
+		(mid -28.267767 -16.767767)
+		(end -26.5 -17.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -118,9 +118,9 @@
 		(uuid "f3585d0b-a4ce-4cca-8cc7-e6a158552e29")
 	)
 	(fp_arc
-		(start 0.1 26.39)
-		(mid -1.667767 25.657767)
-		(end -2.4 23.89)
+		(start -26.5 17.5)
+		(mid -28.267767 16.767767)
+		(end -29 15)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -129,9 +129,9 @@
 		(uuid "25284692-4ca6-4756-a78f-ad39e5fe663c")
 	)
 	(fp_arc
-		(start 53.1 -8.61)
-		(mid 54.867767 -7.877767)
-		(end 55.6 -6.11)
+		(start 26.5 -17.5)
+		(mid 28.267767 -16.767767)
+		(end 29 -15)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -140,9 +140,9 @@
 		(uuid "80a807d9-e293-4f3c-bd4e-e4fe98ee9680")
 	)
 	(fp_arc
-		(start 55.6 23.89)
-		(mid 54.867767 25.657767)
-		(end 53.1 26.39)
+		(start 29 15)
+		(mid 28.267767 16.767767)
+		(end 26.5 17.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -151,8 +151,8 @@
 		(uuid "515ba4df-8579-4e66-afb1-3de1276385a4")
 	)
 	(fp_circle
-		(center 0.1 -6.11)
-		(end 1.1 -6.11)
+		(center -26.5 -15)
+		(end -25.5 -15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -162,8 +162,8 @@
 		(uuid "8531cd0e-2204-49a3-82e0-ae82c6301bc5")
 	)
 	(fp_circle
-		(center 0.1 23.89)
-		(end 1.1 23.89)
+		(center -26.5 15)
+		(end -25.5 15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -173,8 +173,8 @@
 		(uuid "67dd1957-42dc-4e79-9ccf-58fae018c768")
 	)
 	(fp_circle
-		(center 53.1 -6.11)
-		(end 54.1 -6.11)
+		(center 26.5 -15)
+		(end 27.5 -15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -184,8 +184,8 @@
 		(uuid "bd81cac8-8eee-482c-a759-966bc618af84")
 	)
 	(fp_circle
-		(center 53.1 23.89)
-		(end 54.1 23.89)
+		(center 26.5 15)
+		(end 27.5 15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -195,8 +195,8 @@
 		(uuid "600d7f1e-d152-454f-bfcc-6451d2b42566")
 	)
 	(fp_line
-		(start -1.8 -1.8)
-		(end 1.75 -1.8)
+		(start -28.4 -10.69)
+		(end -24.85 -10.69)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -205,8 +205,8 @@
 		(uuid "7a80f664-c8d1-414f-af0f-1d4e9938c62e")
 	)
 	(fp_line
-		(start -1.8 19.55)
-		(end -1.8 -1.8)
+		(start -28.4 10.66)
+		(end -28.4 -10.69)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -215,8 +215,8 @@
 		(uuid "976793c9-92ca-4e2a-aa76-830ea3007413")
 	)
 	(fp_line
-		(start 1.75 -1.8)
-		(end 1.75 19.55)
+		(start -24.85 -10.69)
+		(end -24.85 10.66)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -225,8 +225,8 @@
 		(uuid "f6dd1493-83c9-4b87-b265-ed45fe231442")
 	)
 	(fp_line
-		(start 1.75 19.55)
-		(end -1.8 19.55)
+		(start -24.85 10.66)
+		(end -28.4 10.66)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -235,8 +235,8 @@
 		(uuid "a1b7fca8-5089-4b18-9d1e-5c61e38ec00d")
 	)
 	(fp_line
-		(start -1.27 -1.27)
-		(end 0.635 -1.27)
+		(start -27.87 -10.16)
+		(end -25.965 -10.16)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -245,8 +245,8 @@
 		(uuid "ad657d6d-3629-40bd-901e-30585a79f15d")
 	)
 	(fp_line
-		(start -1.27 19.05)
-		(end -1.27 -1.27)
+		(start -27.87 10.16)
+		(end -27.87 -10.16)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -255,8 +255,8 @@
 		(uuid "bddc2202-98c8-4058-ae7c-b8098fb78bd2")
 	)
 	(fp_line
-		(start 0.635 -1.27)
-		(end 1.27 -0.635)
+		(start -25.965 -10.16)
+		(end -25.33 -9.525)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -265,8 +265,8 @@
 		(uuid "1a452f5c-ebb8-4163-a098-0e89c0ff95c1")
 	)
 	(fp_line
-		(start 1.27 -0.635)
-		(end 1.27 19.05)
+		(start -25.33 -9.525)
+		(end -25.33 10.16)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -275,8 +275,8 @@
 		(uuid "74b24851-60b8-47b5-8967-c8790c2ceafd")
 	)
 	(fp_line
-		(start 1.27 19.05)
-		(end -1.27 19.05)
+		(start -25.33 10.16)
+		(end -27.87 10.16)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -285,7 +285,7 @@
 		(uuid "c15a3f79-428d-4bec-9683-471d94e649f7")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 8.89 90)
+		(at -26.6 0 90)
 		(layer "F.Fab")
 		(uuid "cd6e39db-7e5a-48fe-a598-0e86a4d0849b")
 		(effects
@@ -296,7 +296,7 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at 0 0)
+		(at -26.6 -8.89)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -304,7 +304,7 @@
 		(uuid "ac286f13-4db4-4516-9cab-8625dd41ae05")
 	)
 	(pad "1" smd roundrect
-		(at 1.25 0 90)
+		(at -25.35 -8.89 90)
 		(size 1.02 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1960784314)
@@ -312,7 +312,7 @@
 		(uuid "86d5fc72-0b12-4207-b25a-a9d0905600b8")
 	)
 	(pad "2" smd roundrect
-		(at -1.25 2.54 90)
+		(at -27.85 -6.35 90)
 		(size 1.02 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1960784314)
@@ -320,7 +320,7 @@
 		(uuid "9459946b-4852-4857-bd01-a7bc872ef567")
 	)
 	(pad "2" thru_hole oval
-		(at 0 2.54)
+		(at -26.6 -6.35)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -328,7 +328,7 @@
 		(uuid "7d4f696e-7856-4a95-9c4e-609763a2c01f")
 	)
 	(pad "3" thru_hole oval
-		(at 0 5.08)
+		(at -26.6 -3.81)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -336,7 +336,7 @@
 		(uuid "5c795f78-b416-4862-85ad-4aab2dfe85eb")
 	)
 	(pad "3" smd roundrect
-		(at 1.25 5.08 90)
+		(at -25.35 -3.81 90)
 		(size 1.02 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1960784314)
@@ -344,7 +344,7 @@
 		(uuid "0147bef4-2f6d-49d8-ba19-1ff053fcbcb6")
 	)
 	(pad "4" smd roundrect
-		(at -1.25 7.62 90)
+		(at -27.85 -1.27 90)
 		(size 1.02 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1960784314)
@@ -352,7 +352,7 @@
 		(uuid "e40c30e5-e320-40f0-b562-9609b1ed8bd3")
 	)
 	(pad "4" thru_hole oval
-		(at 0 7.62)
+		(at -26.6 -1.27)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -360,7 +360,7 @@
 		(uuid "3d797596-cb18-4a9a-b0a4-87e3b6e73e8d")
 	)
 	(pad "5" thru_hole oval
-		(at 0 10.16)
+		(at -26.6 1.27)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -368,7 +368,7 @@
 		(uuid "a1c1e5ec-fe28-4988-bdbc-6982f84324bc")
 	)
 	(pad "5" smd roundrect
-		(at 1.25 10.16 90)
+		(at -25.35 1.27 90)
 		(size 1.02 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1960784314)
@@ -376,7 +376,7 @@
 		(uuid "79ef0cd7-6016-40e9-a082-45b707b4d715")
 	)
 	(pad "6" smd roundrect
-		(at -1.25 12.7 90)
+		(at -27.85 3.81 90)
 		(size 1.02 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1960784314)
@@ -384,7 +384,7 @@
 		(uuid "eba7e6f0-2f7b-40fd-8390-886e8f41beea")
 	)
 	(pad "6" thru_hole oval
-		(at 0 12.7)
+		(at -26.6 3.81)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -392,7 +392,7 @@
 		(uuid "f9c60b37-1bb4-4178-b1f5-d5e9d7edc256")
 	)
 	(pad "7" thru_hole oval
-		(at 0 15.24)
+		(at -26.6 6.35)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -400,7 +400,7 @@
 		(uuid "259b70a0-0347-4a1b-95b0-e83eb32cfeb7")
 	)
 	(pad "7" smd roundrect
-		(at 1.25 15.24 90)
+		(at -25.35 6.35 90)
 		(size 1.02 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1960784314)
@@ -408,7 +408,7 @@
 		(uuid "daf69335-e83a-43b8-9dde-1f2b4639d9fc")
 	)
 	(pad "8" smd roundrect
-		(at -1.25 17.78 90)
+		(at -27.85 8.89 90)
 		(size 1.02 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1960784314)
@@ -416,7 +416,7 @@
 		(uuid "457f1a2e-bb8f-4db5-b40d-65b1955b77bf")
 	)
 	(pad "8" thru_hole oval
-		(at 0 17.78)
+		(at -26.6 8.89)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -451,14 +451,14 @@
 		)
 		(polygon
 			(pts
-				(xy 51.6 -1.11) (xy 45.6 -1.11) (xy 45.6 18.89) (xy 51.6 18.89)
+				(xy 25 -10) (xy 19 -10) (xy 19 10) (xy 25 10)
 			)
 		)
 	)
 	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl"
 		(offset
-			(xyz 0 0 0)
+			(xyz -26.6 8.89 0)
 		)
 		(scale
 			(xyz 1 1 0.7)
@@ -467,9 +467,9 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "${REVK_3D}/LCD2.step"
+	(model "${REVK_3D}/WSLCD2.step"
 		(offset
-			(xyz 26.6 -8.9 8.3)
+			(xyz 0 0 8.3)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -480,7 +480,7 @@
 	)
 	(model "${REVK_3D}/M2x6Pillar.step"
 		(offset
-			(xyz -0.1 6.11 0)
+			(xyz -26.5 15 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -491,7 +491,7 @@
 	)
 	(model "${REVK_3D}/M2x6Pillar.step"
 		(offset
-			(xyz -0.1 -23.89 0)
+			(xyz -26.5 -15 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -502,7 +502,7 @@
 	)
 	(model "${REVK_3D}/M2x6Pillar.step"
 		(offset
-			(xyz 52.9 6.11 0)
+			(xyz 26.5 15 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -513,7 +513,18 @@
 	)
 	(model "${REVK_3D}/M2x6Pillar.step"
 		(offset
-			(xyz 52.9 -23.89 0)
+			(xyz 26.5 -15 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${REVK_3D}/LCDHeader.step"
+		(offset
+			(xyz -29 -17.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
