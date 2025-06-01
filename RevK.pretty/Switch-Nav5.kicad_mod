@@ -87,16 +87,17 @@
 		(layer "Edge.Cuts")
 		(uuid "cfc4c7a3-12f7-4dd3-b045-8c39c906ff00")
 	)
-	(fp_rect
-		(start -3.7 -3.75)
-		(end 3.7 3.75)
+	(fp_poly
+		(pts
+			(xy -3 -3.75) (xy -3.75 -3) (xy -3.75 3) (xy -3 3.75) (xy 3 3.75) (xy 3.75 3) (xy 3.75 -3) (xy 3 -3.75)
+		)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "372700ca-6264-4174-8b17-996dd5ae8a4d")
+		(uuid "012b6f12-2c81-4f14-8230-f20332833a06")
 	)
 	(pad "" smd roundrect
 		(at 0 -4.05)
