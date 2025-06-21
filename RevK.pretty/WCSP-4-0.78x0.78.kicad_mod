@@ -1,0 +1,124 @@
+(footprint "WCSP-4-0.78x0.78"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8ee4d37b-84ec-4469-b786-ddb3b90909c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WCSP-4-0.78x0.78"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a471652b-8464-47cf-84cd-4438117c4730")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d750690-a45e-494e-8967-75dac3dd1fe4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fea1a81c-bc4b-47d0-b696-500d6a2f9209")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.5 0.25)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a5200b8f-8c90-45f5-9fa9-f1debb690e6d")
+	)
+	(fp_line
+		(start 0.5 0.5)
+		(end 0.25 0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5d1186b8-48f7-4c1b-a036-937191468bdf")
+	)
+	(fp_rect
+		(start -0.405 -0.405)
+		(end 0.405 0.405)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0a87aa74-deca-43de-a46a-c487d4fac705")
+	)
+	(pad "A1" smd circle
+		(at 0.2 0.2)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa2e33db-666b-4bcc-a728-b79379a10e1b")
+	)
+	(pad "A2" smd circle
+		(at -0.2 0.2)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d5588f75-d8e8-4573-8dea-b9148123dc37")
+	)
+	(pad "B1" smd circle
+		(at 0.2 -0.2)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7fe6cf71-281b-49e8-a815-56686480abdf")
+	)
+	(pad "B2" smd circle
+		(at -0.2 -0.2)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb491455-8f02-4f8a-b38a-7323c418565a")
+	)
+	(embedded_fonts no)
+	(model "${REVK_3D}/WCSP-4-0.7x0.78.wrl"
+		(offset
+			(xyz 0 0 0.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
