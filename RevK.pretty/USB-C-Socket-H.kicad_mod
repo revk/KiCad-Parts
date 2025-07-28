@@ -360,13 +360,13 @@
 	(embedded_fonts no)
 	(model "/Users/adrian/Documents/KiCad/3D/CSP-USC16-TR.step"
 		(offset
-			(xyz 0 -2.4 0)
+			(xyz 0 -1.9 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
