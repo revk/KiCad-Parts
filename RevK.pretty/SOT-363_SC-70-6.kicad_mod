@@ -1,5 +1,5 @@
 (footprint "SOT-363_SC-70-6"
-	(version 20241129)
+	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
@@ -18,25 +18,13 @@
 		)
 	)
 	(property "Value" "SC70"
-		(at 0 -0.05 -90)
+		(at 0 -0.05 270)
 		(layer "F.Fab")
 		(uuid "efd034f0-6e38-46f5-83f9-77ebd1dcc96f")
 		(effects
 			(font
 				(size 0.5 0.5)
 				(thickness 0.08)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cdc0207a-e983-447c-9875-82f9bb9a7259")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -99,8 +87,8 @@
 		(uuid "999f04a7-8768-41a3-abd4-c8fcce22fb7d")
 	)
 	(fp_line
-		(start -1.25 -1.15)
-		(end -1.25 1.15)
+		(start -1 -1.15)
+		(end -1 1.15)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -109,8 +97,8 @@
 		(uuid "8636361a-ff96-49c7-ae39-1457d1af6933")
 	)
 	(fp_line
-		(start -1.25 -1.15)
-		(end 1.25 -1.15)
+		(start -1 -1.15)
+		(end 1 -1.15)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -119,8 +107,8 @@
 		(uuid "b89e2e6e-9a81-4073-bc7c-5f001e2d16a4")
 	)
 	(fp_line
-		(start -1.25 1.15)
-		(end 1.25 1.15)
+		(start -1 1.15)
+		(end 1 1.15)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -129,8 +117,8 @@
 		(uuid "ce906bef-6945-463e-a57d-06edb3ed8dd0")
 	)
 	(fp_line
-		(start 1.25 1.15)
-		(end 1.25 -1.15)
+		(start 1 1.15)
+		(end 1 -1.15)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -187,18 +175,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "c30b6f51-5bc9-4a76-8a03-fc4a35281769")
-	)
-	(fp_text user "${REFERENCE}"
-		(at -1.85 0 90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "acf59d62-39fd-4c8b-9518-c8773b1f25d0")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.075)
-			)
-		)
 	)
 	(pad "1" smd rect
 		(at -0.95 -0.65)

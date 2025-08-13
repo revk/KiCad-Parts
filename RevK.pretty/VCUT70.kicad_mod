@@ -1,5 +1,5 @@
 (footprint "VCUT70"
-	(version 20241129)
+	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
@@ -28,18 +28,6 @@
 				(thickness 0.15)
 			)
 			(justify left top)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "78f42ee4-07c9-4dc0-9851-44f2ee333e66")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -198,8 +186,13 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "Cmts.User")
-		(uuid "8e6d225d-c390-4412-96ed-99bcc1981189")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "c46a67ce-fdd8-46e2-a7e0-a9b5e8146551")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -208,7 +201,7 @@
 		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
-			(vias allowed)
+			(vias not_allowed)
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
@@ -230,8 +223,13 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "B.Cu" "Cmts.User")
-		(uuid "fd4d9688-4c74-49ab-9e06-1d10dee12a41")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "8e6d225d-c390-4412-96ed-99bcc1981189")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -240,9 +238,9 @@
 		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
-			(vias allowed)
+			(vias not_allowed)
 			(pads allowed)
-			(copperpour not_allowed)
+			(copperpour allowed)
 			(footprints allowed)
 		)
 		(placement
@@ -255,7 +253,7 @@
 		)
 		(polygon
 			(pts
-				(xy 35 0.2) (xy 35 -0.2) (xy -35 -0.2) (xy -35 0.2)
+				(xy 35 0.375) (xy 35 -0.375) (xy -35 -0.375) (xy -35 0.375)
 			)
 		)
 	)

@@ -1,5 +1,5 @@
 (footprint "VCUT70N"
-	(version 20241129)
+	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
@@ -28,18 +28,6 @@
 				(thickness 0.15)
 			)
 			(justify left top)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4b88fb49-8089-41f7-8838-4e87af92a27a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -198,8 +186,8 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "Cmts.User")
-		(uuid "8e6d225d-c390-4412-96ed-99bcc1981189")
+		(layers "F.Cu" "B.Cu" "In1.Cu")
+		(uuid "92262387-61d9-4245-a95a-8911ec13f41e")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -208,7 +196,7 @@
 		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
-			(vias allowed)
+			(vias not_allowed)
 			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
@@ -230,8 +218,8 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "B.Cu" "Cmts.User")
-		(uuid "fd4d9688-4c74-49ab-9e06-1d10dee12a41")
+		(layers "F.Cu" "B.Cu" "In1.Cu")
+		(uuid "29a07950-7c9a-4eae-8dec-c37ee9dd889d")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -240,9 +228,9 @@
 		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
-			(vias allowed)
+			(vias not_allowed)
 			(pads allowed)
-			(copperpour not_allowed)
+			(copperpour allowed)
 			(footprints allowed)
 		)
 		(placement
@@ -255,7 +243,7 @@
 		)
 		(polygon
 			(pts
-				(xy 35 0.2) (xy 35 -0.2) (xy -35 -0.2) (xy -35 0.2)
+				(xy 35 0.375) (xy 35 -0.375) (xy -35 -0.375) (xy -35 0.375)
 			)
 		)
 	)
