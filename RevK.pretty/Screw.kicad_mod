@@ -1,22 +1,98 @@
-(footprint "Screw" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (fp_text reference "REF**" (at 0.15 -2.65 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 85923eba-51ee-4e26-9a80-4cac8a3bfacb)
-  )
-  (fp_text value "Screw" (at 0.05 4 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d40ca341-724f-4c6a-8661-488ee45ab150)
-  )
-  (fp_line (start -3 0) (end 3 0)
-    (stroke (width 1) (type solid)) (layer "F.Fab") (tstamp 39b82a97-b494-4756-8312-8959669fc1ee))
-  (fp_line (start 0 -3) (end 0 3)
-    (stroke (width 1) (type solid)) (layer "F.Fab") (tstamp a081df11-8770-41d8-9849-06381117356e))
-  (fp_circle (center 0 0) (end 4 0)
-    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp dea6278e-3a62-4d10-8480-95dbfaf73c02))
-  (model "${REVK_3D}/M3.5CSK.step"
-    (offset (xyz 0 0 5.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 -90 0))
-  )
+(footprint "Screw"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.15 -2.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "85923eba-51ee-4e26-9a80-4cac8a3bfacb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Screw"
+		(at 0.05 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d40ca341-724f-4c6a-8661-488ee45ab150")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdb84410-fe69-4d07-85ea-e4401e5fdb81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8dc652e-0f7e-4679-aecb-ae44b5904b22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3 0)
+		(end 3 0)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39b82a97-b494-4756-8312-8959669fc1ee")
+	)
+	(fp_line
+		(start 0 -3)
+		(end 0 3)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a081df11-8770-41d8-9849-06381117356e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dea6278e-3a62-4d10-8480-95dbfaf73c02")
+	)
+	(embedded_fonts no)
+	(model "${REVK_3D}/M3.5CSK.step"
+		(offset
+			(xyz 0 0 -4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
 )

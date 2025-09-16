@@ -1,14 +1,14 @@
-(footprint "DFN1006-2L"
+(footprint "WAGO-2060-451-998-404-S"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -1.05 0)
+		(at 9.9 0 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3de4edcd-1272-4aa8-b271-5e2e4bcf5a8b")
+		(uuid "26fd6436-99cb-4c8d-8891-d3e4598acaf0")
 		(effects
 			(font
 				(size 1 1)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "DFN1006-2L"
-		(at 0 1 0)
+	(property "Value" "WAGO-2060-451-998-404-S"
+		(at 11.9 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5a7f9744-814d-42be-874b-9f4be456007d")
+		(uuid "62114e89-8f8c-4caa-a1f5-9958b7f9a0f1")
 		(effects
 			(font
 				(size 1 1)
@@ -29,80 +29,69 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -1.1 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d204f0a4-db63-4066-b66c-eaa3ed755557")
+		(uuid "db8b36fb-27cf-4b7f-955e-eacabf1d4b4a")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -1.1 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e9f92520-539c-4c9f-ad2d-f1e97b0bc633")
+		(uuid "1a454913-3f37-4902-bd6e-d59159bd7054")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_rect
-		(start -0.5 -0.3)
-		(end 0.5 0.3)
+		(start -7.15 -1.95)
+		(end 5.55 1.95)
 		(stroke
-			(width 0.05)
+			(width 0.12)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "75bede3e-1491-4c0b-b7b2-fd147b51a66d")
-	)
-	(fp_rect
-		(start -0.5 -0.3)
-		(end 0.5 0.3)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "a80e1ede-317e-486b-b4d4-32088ee5a385")
+		(uuid "1984d145-1a35-41cf-adce-240818b3bd5e")
 	)
 	(pad "1" smd roundrect
-		(at -0.4 0)
-		(size 0.5 0.6)
+		(at -4.65 0 270)
+		(size 2 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "fcd61872-450a-441d-98bf-09537a8a58a7")
+		(uuid "24ebe12c-73e7-4cf0-81cc-eea40d770ebc")
 	)
-	(pad "2" smd roundrect
-		(at 0.4 0)
-		(size 0.5 0.6)
+	(pad "1" smd roundrect
+		(at 4.6 0 270)
+		(size 2 3.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "12cc8e87-f588-4842-9b4a-0af592c78d4c")
+		(uuid "d7fa27c3-af85-4370-970b-ea8056287c07")
 	)
 	(embedded_fonts no)
-	(model "${REVK_3D}/DFN1006-2L.wrl"
+	(model "${REVK_3D}/2060-451_998-404.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz -7.15 -1.95 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 -180)
 		)
 	)
 )

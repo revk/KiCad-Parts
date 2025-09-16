@@ -140,7 +140,7 @@
 	)
 	(fp_line
 		(start -7.375 7.15)
-		(end -5.95 7.15)
+		(end -6.45 7.15)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -149,27 +149,27 @@
 		(uuid "12e2dda0-c699-4c11-96cc-e88aed0ce033")
 	)
 	(fp_line
-		(start -5.95 9.65)
-		(end -5.95 7.15)
+		(start -6.45 9.65)
+		(end -6.45 7.15)
 		(stroke
 			(width 0.12)
-			(type default)
+			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "e90d39f9-e83f-4d2d-8265-eca82321dcb3")
 	)
 	(fp_line
-		(start -5.95 9.65)
-		(end 4.05 9.65)
+		(start -6.45 9.65)
+		(end 4.55 9.65)
 		(stroke
 			(width 0.12)
-			(type default)
+			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "468f8733-a882-436b-8e33-b6cf96f2812f")
 	)
 	(fp_line
-		(start 4.05 7.15)
+		(start 4.55 7.15)
 		(end 7.375 7.15)
 		(stroke
 			(width 0.12)
@@ -179,11 +179,11 @@
 		(uuid "727ba781-c4c3-4798-ad08-616b49f966f9")
 	)
 	(fp_line
-		(start 4.05 9.65)
-		(end 4.05 7.15)
+		(start 4.55 9.65)
+		(end 4.55 7.15)
 		(stroke
 			(width 0.12)
-			(type default)
+			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "320205c5-d346-4bfd-9e06-ff22a7089974")
@@ -248,6 +248,16 @@
 		(layer "F.CrtYd")
 		(uuid "0f031794-0156-4bba-a844-a5e61b7820c7")
 	)
+	(fp_line
+		(start -6.45 8.47)
+		(end 4.55 8.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "662b2bf8-aa32-46f2-98de-8011d7242749")
+	)
 	(fp_rect
 		(start -7.375 -7.35)
 		(end 7.375 7.15)
@@ -260,11 +270,11 @@
 		(uuid "e9366631-27d6-4fe5-83c7-a481f17cc4a8")
 	)
 	(fp_rect
-		(start -5.95 -5.35)
-		(end 4.05 9.65)
+		(start -6.45 -5.35)
+		(end 4.55 9.65)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
@@ -391,13 +401,13 @@
 	)
 	(model "${REVK_3D}/MicroSD.step"
 		(offset
-			(xyz -25 -19.5 1)
+			(xyz -25 -18.75 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

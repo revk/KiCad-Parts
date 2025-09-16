@@ -1,0 +1,169 @@
+(footprint "RJ12_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RJ12 6P6C horizontal socket, plastic body, tab down, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0082.pdf")
+	(tags "RJ12 connector")
+	(property "Reference" "REF**"
+		(at -1.66 -2.16 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a65542a3-2caa-4b36-9840-73641740309a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RJ12_Horizontal"
+		(at 3.55 18.3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96de7441-e6f8-464c-9244-5738084c7e82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3d64141-76c2-4abe-9fda-d58535d5ce40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c63220c-b824-4cb1-b03b-b1b7c1b2ade1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rotation Offset" "90"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "be16684e-3c1f-41e4-b7e0-fd3a16b8530d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Position Offset" "0,1.1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "74431122-107d-4954-b236-b665d437a70f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.1 -7)
+		(end 6.1 6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b70500b4-0174-4629-ba11-d88ca061c52e")
+	)
+	(pad "" np_thru_hole circle
+		(at -6 0)
+		(size 2.3 2.3)
+		(drill 2.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "17e2f5bd-56e5-46ac-9e2d-5b4f10151f9c")
+	)
+	(pad "" np_thru_hole circle
+		(at 6 0)
+		(size 2.3 2.3)
+		(drill 2.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c16297a1-b9d0-4319-9866-9c7bdf89dcaf")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.55 -2.3)
+		(size 1.84 1.84)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1644736842)
+		(uuid "f3b6fa84-78d0-4a05-89ff-06c616266b0c")
+	)
+	(pad "2" thru_hole circle
+		(at -1.53 -4.84)
+		(size 1.84 1.84)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c410741a-389a-4230-aa95-1b88654e7d25")
+	)
+	(pad "3" thru_hole circle
+		(at -0.51 -2.3)
+		(size 1.84 1.84)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fee3c4d5-ce90-429c-b509-11896cfa456b")
+	)
+	(pad "4" thru_hole circle
+		(at 0.51 -4.84)
+		(size 1.84 1.84)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4da5984b-fdff-4189-83c9-3fdb5c29f601")
+	)
+	(pad "5" thru_hole circle
+		(at 1.53 -2.3)
+		(size 1.84 1.84)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c59b5103-675d-44cb-9128-5f987f8e8841")
+	)
+	(pad "6" thru_hole circle
+		(at 2.55 -4.84)
+		(size 1.84 1.84)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60f6db18-30e9-4101-8493-69a06b5b3fba")
+	)
+	(embedded_fonts no)
+	(model "${REVK_3D}/RJ12.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
