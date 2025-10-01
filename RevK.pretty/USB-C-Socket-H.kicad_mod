@@ -68,45 +68,16 @@
 	)
 	(zone_connect 1)
 	(attr through_hole)
-	(fp_line
-		(start -4.5 -2.14)
-		(end 4.5 -2.14)
+	(fp_rect
+		(start -4.47 -1.76)
+		(end 4.47 5.79)
 		(stroke
-			(width 0.12)
+			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f87e5469-93f2-4954-a98a-73feff406823")
-	)
-	(fp_line
-		(start -4.5 4.5)
-		(end -4.5 -2.14)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "e1a4f832-5fe0-4100-8947-6093e774735e")
-	)
-	(fp_line
-		(start -4.5 4.5)
-		(end 4.5 4.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "a35dd1f4-7662-4bbc-a918-8623ecba15bd")
-	)
-	(fp_line
-		(start 4.5 -2.14)
-		(end 4.5 4.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "eff25c00-0c88-4756-8519-63b5ae88f538")
+		(uuid "fcd031c2-5a42-4818-9040-f0ec0b0298b5")
 	)
 	(pad "" np_thru_hole circle
 		(at -2.89 -0.5)
