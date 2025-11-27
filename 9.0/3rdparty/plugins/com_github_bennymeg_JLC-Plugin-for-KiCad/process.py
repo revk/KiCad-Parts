@@ -47,6 +47,7 @@ class ProcessManager:
 
     def generate_gerber(self, temp_dir, extra_layers, extend_edge_cuts, alternative_edge_cuts, all_active_layers):
         '''Generate the Gerber files.'''
+        original_settings = self.board.GetDesignSettings()
         settings = self.board.GetDesignSettings()
         settings.m_SolderMaskMargin = 50000
         settings.m_SolderMaskToCopperClearance = 5000
@@ -98,6 +99,7 @@ class ProcessManager:
                     plot_controller.PlotLayer()
 
         plot_controller.ClosePlot()
+        settings = original_settings
 
     def generate_drills(self, temp_dir):
         '''Generate the drill file.'''
@@ -458,7 +460,7 @@ class ProcessManager:
     def _get_mpn_from_footprint(self, footprint) -> str:
         ''''Get the MPN/LCSC stock code from standard symbol fields.'''
         supplier_names = ['LCSC', 'JLCPCB']
-        pn_abbrevs = ['Part #', 'Part', 'PN', 'P/N', 'Part No.']
+        pn_abbrevs = ['Part #', 'Part', 'PN', 'P/N', 'Part No.', 'Part Number']
         keys = [(sn + " " + abr) for sn in supplier_names for abr in pn_abbrevs]
         fallback_keys = ['LCSC', 'JLC', 'MPN', 'Mpn', 'mpn']
 
@@ -466,7 +468,7 @@ class ProcessManager:
             return 'DNP'
 
         for key in keys + fallback_keys:
-            if footprint_has_field(footprint, key):
+            if footprint_has_field(footprint, key) and '' != footprint_get_field(footprint, key):
                 return footprint_get_field(footprint, key)
 
     def _get_layer_override_from_footprint(self, footprint) -> str:

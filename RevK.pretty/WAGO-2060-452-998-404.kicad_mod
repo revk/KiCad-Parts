@@ -1,10 +1,10 @@
 (footprint "WAGO-2060-452-998-404"
-	(version 20241129)
+	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 9.9 0 -90)
+		(at 9.9 0 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "WAGO-2060-452-998-404"
-		(at 11.9 0 -90)
+		(at 11.9 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "62114e89-8f8c-4caa-a1f5-9958b7f9a0f1")
@@ -28,20 +28,8 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "46f8e06d-de56-4e48-8d27-5d199b5cc466")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
-		(at -1.1 0 -90)
+		(at -1.1 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,23 +42,11 @@
 		)
 	)
 	(property "Description" ""
-		(at -1.1 0 -90)
+		(at -1.1 0 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "1a454913-3f37-4902-bd6e-d59159bd7054")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Position Offset" "-0.5,0"
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(hide yes)
-		(uuid "1afe41db-f004-4e7f-a99a-ed75255dc36b")
 		(effects
 			(font
 				(size 1 1)

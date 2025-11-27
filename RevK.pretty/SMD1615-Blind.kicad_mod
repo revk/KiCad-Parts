@@ -56,25 +56,17 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start 0.822737 -0.952833)
-		(end 1.222737 -0.952833)
-		(stroke
-			(width 0.12)
-			(type default)
+	(fp_poly
+		(pts
+			(xy -0.5 0) (xy 0.1 -0.4) (xy 0.3 -0.2) (xy 0.3 0.2) (xy 0.1 0.4)
 		)
-		(layer "F.SilkS")
-		(uuid "a8c67775-f0eb-4d86-983f-c06cd8449cc9")
-	)
-	(fp_line
-		(start 1.022737 -1.152833)
-		(end 1.022737 -0.752833)
 		(stroke
-			(width 0.12)
-			(type default)
+			(width 0)
+			(type solid)
 		)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "2a6467e3-6356-44c1-9535-152507138a00")
+		(uuid "a49dd51d-f89d-4f30-9d75-165bdf6e8090")
 	)
 	(fp_line
 		(start -0.6 0.425)
@@ -189,26 +181,15 @@
 		(uuid "8355be5f-b3eb-4505-bb06-54c10cf5d912")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+	(model "${REVK_3D}/XL-1615RGBC-WS2812B.STEP"
 		(offset
-			(xyz 0 0.25 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
-	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
-		(offset
-			(xyz 0 -0.25 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

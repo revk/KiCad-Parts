@@ -52,6 +52,7 @@
 			)
 		)
 	)
+	(zone_connect 2)
 	(attr smd)
 	(fp_line
 		(start -1.3 -0.6)
