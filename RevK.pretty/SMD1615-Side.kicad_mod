@@ -1,0 +1,196 @@
+(footprint "SMD1615-Side"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+	(tags "LED RGB NeoPixel")
+	(property "Reference" "REF**"
+		(at 0 -1.45 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "29976fa0-918e-48c1-ba81-319324267df7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD1615-Side"
+		(at 0 2.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11f34c85-b80f-46bd-b71d-beeef7ef25a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10bd6b2d-6093-4644-8559-63c5a2208247")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f71324d-75a2-4e7b-ba6d-da19c465cccb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.5 0) (xy 0.1 -0.4) (xy 0.3 -0.2) (xy 0.3 0.2) (xy 0.1 0.4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0d512da3-ab3b-4db8-86dd-b33a15e3dc8c")
+	)
+	(fp_line
+		(start -0.6 0.425)
+		(end -0.25 0.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "0d5fe492-5975-48ca-ad82-5e590293011d")
+	)
+	(fp_line
+		(start 0.25 -0.425)
+		(end 0.6 -0.425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "838a8f43-0a8a-47e5-9f06-b132dc606d9f")
+	)
+	(fp_line
+		(start 0.425 -0.6)
+		(end 0.425 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "3be3864e-e7f7-4339-accd-38d29e885a8a")
+	)
+	(fp_rect
+		(start -0.9 -0.85)
+		(end 0.9 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "af1c4376-2086-41ab-9dfb-b7a10287ea95")
+	)
+	(fp_text user "DI"
+		(at 0.425 0.425 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "1e9e20c5-f49f-4e3e-8f71-dd745be20e4b")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "DO"
+		(at -0.425 -0.425 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "4b69eb60-77a2-4eb8-a890-29f3c07788e2")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c5756b5f-7ccc-4d42-872b-98775daca562")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.03)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.625 0.475)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.17)
+		(chamfer bottom_left)
+		(uuid "303fa036-5e50-4d6d-bb86-5cdfd4b88a9f")
+	)
+	(pad "2" smd roundrect
+		(at 0.625 0.475 180)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.17)
+		(chamfer top_left)
+		(uuid "828582b7-968d-4631-8ca0-98e3193fe809")
+	)
+	(pad "3" smd roundrect
+		(at 0.625 -0.475)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.17)
+		(chamfer top_right)
+		(uuid "848233f6-206d-4dfa-bd39-5d22792f7bff")
+	)
+	(pad "4" smd roundrect
+		(at -0.625 -0.475)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.17)
+		(chamfer top_left)
+		(uuid "8355be5f-b3eb-4505-bb06-54c10cf5d912")
+	)
+	(embedded_fonts no)
+	(model "${REVK_3D}/XL-1615RGBC-WS2812B.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

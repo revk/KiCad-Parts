@@ -207,7 +207,7 @@
 		(uuid "6d3c3032-c8a1-4954-b322-5ee59cb7664a")
 	)
 	(embedded_fonts no)
-	(model "${REVK_3D}/ISO7816.step"
+	(model "${REVK_3D}/ISO7816Card.step"
 		(offset
 			(xyz 0 28 4.5)
 		)
