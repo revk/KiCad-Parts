@@ -1,0 +1,134 @@
+(footprint "PS-12E15"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SPDT side switch")
+	(property "Reference" "Untitled"
+		(at -0.03 -12.09 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b7d5eeb5-795f-4a47-bf1d-a6ed5a873eca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PS-12E15"
+		(at -0.06 -13.69 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6704fc48-240a-4e5f-9fb1-ffd4753990c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a10a9e74-13bb-4a19-9dd5-15311c78a3fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SPDT side switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "358cd611-45ca-440b-b808-a6182604ec41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -6 -2.55) (xy 6.2 -2.55) (xy 6.2 -1.4) (xy 16.1 -1.4) (xy 16.1 1.4) (xy 6.2 1.4) (xy 6.2 2.55)
+			(xy -6 2.55)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4c03a0bc-bded-4ef2-8123-27dd63e783c9")
+	)
+	(fp_line
+		(start 9.5 -1.5)
+		(end 9.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a1fbbd81-b6cb-42e9-87fd-3bd433ef3bc8")
+	)
+	(pad "" thru_hole circle
+		(at -5.7 1.1)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b591bf2-3a8e-4c0b-84a6-6e6c53c27957")
+	)
+	(pad "" thru_hole circle
+		(at 6.2 -2.25)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "709d1d33-f09a-4305-949c-c368cd1bc1ed")
+	)
+	(pad "1" thru_hole circle
+		(at 2.5 0)
+		(size 1.5 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "54bd507c-0fb1-43d9-83ac-b2bc18b092f8")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4dda5ea2-c909-494b-8d98-ca3c1807b6d8")
+	)
+	(pad "3" thru_hole circle
+		(at -2.5 0)
+		(size 1.5 1.5)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7faa40b-eabf-4fff-807d-d0ae69a93113")
+	)
+	(embedded_fonts no)
+	(model "${REVK_3D}/PS-12E15.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

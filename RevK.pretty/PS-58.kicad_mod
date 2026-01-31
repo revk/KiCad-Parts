@@ -1,0 +1,123 @@
+(footprint "PS-58"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "PS-58"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "13713044-def5-4562-9500-455906b02739")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PS-58"
+		(at 0 4.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "701b250c-e339-4bc5-9b5a-1995dde94067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89f0e51e-e8eb-4c24-b390-96a16dbabd19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9e70707-2606-4008-b91e-b6b86eaa6d08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.9 0.95)
+		(end 2.9 6.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d8b2dd4d-0ec6-448c-b854-bb1c96657d28")
+	)
+	(fp_rect
+		(start -1.8 0.95)
+		(end 1.8 10.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "adb0a8df-164e-4a3e-93eb-e4b49f4b0bdf")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 4.5)
+		(size 1.5 1.5)
+		(drill 1.2)
+		(layers "*.Mask")
+		(uuid "bfbdafb1-8660-4133-9155-7fc5dfe2e613")
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d92e38c-5e2f-4c91-9d50-bed4f15192a3")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ab999f4-704b-4cb5-8191-79d1230304d1")
+	)
+	(pad "3" thru_hole circle
+		(at 2 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1334e95b-53b5-439a-8bb6-bbdf53ed183c")
+	)
+	(embedded_fonts no)
+	(model "${REVK_3D}/PS-58.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
